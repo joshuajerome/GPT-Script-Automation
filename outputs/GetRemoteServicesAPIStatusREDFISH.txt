@@ -1,0 +1,26 @@
+
+- PASS: POST command passed for GetRemoteServicesAPIStatus method, status code 200 returned
+
+('@Message.ExtendedInfo',
+ [{'Message': 'The request completed successfully.',
+   'MessageArgs': [],
+   'MessageArgs@odata.count': 0,
+   'MessageId': 'Base.1.12.Success',
+   'RelatedProperties': [],
+   'RelatedProperties@odata.count': 0,
+   'Resolution': 'None',
+   'Severity': 'OK'},
+  {'Message': 'Lifecycle controller is ready to take provisioning requests',
+   'MessageArgs': [],
+   'MessageArgs@odata.count': 0,
+   'MessageId': 'IDRAC.2.9.LC061',
+   'RelatedProperties': [],
+   'RelatedProperties@odata.count': 0,
+   'Resolution': 'No response action is required.',
+   'Severity': 'Informational'}])
+('LCStatus', 'Ready')
+('RTStatus', 'NotReady')
+('SEKMServiceStatus', 'NotReady')
+('ServerStatus', 'PoweredOff')
+('Status', 'Ready')
+('TelemetryServiceStatus', 'Ready')

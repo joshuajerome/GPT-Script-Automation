@@ -1,0 +1,69 @@
+
+---- System Information ----
+
+AssetTag: 
+BiosVersion: 1.3.2
+HostName: SUT1
+Manufacturer: Dell Inc.
+Model: PowerEdge R760
+BIOSReleaseDate: 03/28/2023
+BaseBoardChassisSlot: NA
+BatteryRollupStatus: None
+BladeGeometry: NotApplicable
+CMCIP: None
+CMCRollupStatus: None
+CPURollupStatus: None
+ChassisModel: None
+ChassisName: Main System Chassis
+ChassisServiceTag: CP00508
+ChassisSystemHeightUnit: 2
+CoolingRollupStatus: Error
+CurrentRollupStatus: None
+EstimatedExhaustTemperatureCelsius: 255
+EstimatedSystemAirflowCFM: 255
+ExpressServiceCode: 27633048920
+FanRollupStatus: Error
+Id: System.Embedded.1
+IDSDMRedundancyStatus: Other
+IDSDMRollupStatus: None
+IntrusionRollupStatus: None
+IsOEMBranded: False
+LastSystemInventoryTime: 2023-06-10T02:42:58+00:00
+LastUpdateTime: 2023-06-02T02:15:02+00:00
+LicensingRollupStatus: OK
+ManagedSystemSize: 2 U
+MaxCPUSockets: 2
+MaxDIMMSlots: 32
+MaxPCIeSlots: 8
+MaxSystemMemoryMiB: 12582912
+MemoryOperationMode: OptimizerMode
+Name: DellSystem
+NodeID: CP00508
+PSRollupStatus: None
+PlatformGUID: 3830354f-c0c3-3080-3010-00504c4c4544
+PopulatedDIMMSlots: 1
+PopulatedPCIeSlots: 0
+PowerCapEnabledState: Disabled
+SDCardRollupStatus: None
+SELRollupStatus: OK
+ServerAllocationWatts: None
+StorageRollupStatus: OK
+SysMemErrorMethodology: Multi-bitECC
+SysMemFailOverState: NotInUse
+SysMemLocation: SystemBoardOrMotherboard
+SysMemPrimaryStatus: OK
+SystemGeneration: 16G Monolithic
+SystemHealthRollupStatus: Error
+SystemID: 2667
+SystemRevision: I
+TempRollupStatus: None
+TempStatisticsRollupStatus: None
+UUID: 4c4c4544-0050-3010-8030-c3c04f353038
+VoltRollupStatus: None
+smbiosGUID: 44454c4c-5000-1030-8030-c3c04f353038
+@odata.context: /redfish/v1/$metadata#DellSystem.DellSystem
+@odata.type: #DellSystem.v1_4_0.DellSystem
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellSystem/System.Embedded.1
+SKU: CP00508
+SerialNumber: CNIVC002730155
+Status: {'Health': 'Critical', 'HealthRollup': 'Critical', 'State': 'Enabled'}

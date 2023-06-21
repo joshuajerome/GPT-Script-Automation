@@ -1,0 +1,3 @@
+- INFO, unable to locate file NVDIMM_inventory.txt, skipping step
+
+- WARNING, no NVDIMM(s) detected for iDRAC IP 100.68.145.68

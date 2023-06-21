@@ -1,0 +1,4 @@
+
+- Current iDRAC time -
+
+TimeData: 2023-06-09T21:41:03-05:00

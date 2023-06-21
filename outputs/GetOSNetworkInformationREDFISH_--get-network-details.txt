@@ -1,0 +1,2 @@
+
+- WARNING, no OS network uris detected. Check to make sure iSM is running and network devices are configured in the OS.

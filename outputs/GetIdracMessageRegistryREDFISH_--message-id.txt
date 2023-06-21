@@ -1,0 +1,10 @@
+
+Message ID: SYS409
+Description: The object properties cannot be set because an incorrect object value is entered.
+Message: Unable to set the object properties because an incorrect object value is entered.
+MessageSeverity: Warning
+NumberOfArgs: 0
+Resolution: Enter a valid object value and retry the operation. For information about recommended values, see the schema or the attribute registry based on the type of resource.
+Severity: Warning
+
+

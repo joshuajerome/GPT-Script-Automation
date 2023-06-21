@@ -1,0 +1,10 @@
+
+- PASS, PATCH command passed to set next boot onetime boot device to "Pxe"
+
+- INFO, system will now reboot and boot to onetime boot device "Pxe"
+
+- INFO, Current server power state is: On
+- PASS, POST command passed to gracefully power OFF server
+- INFO, script will now verify the server was able to perform a graceful shutdown. If the server was unable to perform a graceful shutdown, forced shutdown will be invoked in 5 minutes
+- PASS, GET command passed to verify graceful shutdown was successful and server is in OFF state
+- PASS, POST command passed to power ON server

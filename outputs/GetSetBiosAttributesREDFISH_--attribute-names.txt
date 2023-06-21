@@ -1,0 +1,10 @@
+
+- INFO, setting BIOS attribute(s) for iDRAC 100.68.145.68 -
+
+Attribute Name: EmbSata, setting new value to: RaidMode
+Attribute Name: NvmeMode, setting new value to: Raid
+
+- FAIL, PATCH command failed to set BIOS attribute pending values and create next reboot config job, status code 400 returned
+
+- POST command failure:
+ {'error': {'@Message.ExtendedInfo': [{'Message': 'Pending configuration values are already committed, unable to perform another set operation.', 'MessageArgs': ['EmbSata'], 'MessageArgs@odata.count': 1, 'MessageId': 'IDRAC.2.9.SYS011', 'RelatedProperties': ['#/Attributes/EmbSata'], 'RelatedProperties@odata.count': 1, 'Resolution': 'Wait for the scheduled job to complete or delete the configuration jobs before attempting more set attribute operations.', 'Severity': 'Warning'}, {'Message': 'Pending configuration values are already committed, unable to perform another set operation.', 'MessageArgs': ['NvmeMode'], 'MessageArgs@odata.count': 1, 'MessageId': 'IDRAC.2.9.SYS011', 'RelatedProperties': ['#/Attributes/NvmeMode'], 'RelatedProperties@odata.count': 1, 'Resolution': 'Wait for the scheduled job to complete or delete the configuration jobs before attempting more set attribute operations.', 'Severity': 'Warning'}], 'code': 'Base.1.12.GeneralError', 'message': 'A general error has occurred. See ExtendedInfo for more information'}}

@@ -1,0 +1,4 @@
+
+- INFO, setting next onetime boot device to Virtual CD
+- INFO, next onetime boot device already set to Virtual CD, no changes applied
+- INFO, argument --reboot not detected. Onetime boot will be applied on next manual server reboot

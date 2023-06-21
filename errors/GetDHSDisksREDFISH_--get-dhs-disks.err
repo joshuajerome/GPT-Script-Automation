@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspaces/Dell/Redfish Python/scripts/GetDHSDisksREDFISH.py", line 220, in <module>
+    get_DHS_disks()
+  File "/workspaces/Dell/Redfish Python/scripts/GetDHSDisksREDFISH.py", line 177, in get_DHS_disks
+    if data['PDArray'] == []:
+       ~~~~^^^^^^^^^^^
+KeyError: 'PDArray'

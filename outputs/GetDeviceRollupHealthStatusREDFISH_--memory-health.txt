@@ -1,0 +1,2 @@
+
+- DIMM.Socket.A1: Health: OK

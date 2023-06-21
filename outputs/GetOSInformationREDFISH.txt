@@ -1,0 +1,12 @@
+
+- INFO, getting Operation System information, this may take 5-10 seconds to complete
+
+- INFO, current Operation System information for iDRAC 100.68.145.144 -
+
+ServerOS.1#HostName" = SUT3
+ServerOS.1#OSName" = 
+ServerOS.1#OSVersion" = 
+ServerOS.1#ServerPoweredOnTime" = 0
+ServerOS.1#OEMOSVersion" = 
+ServerOS.1#ProductKey" = 
+ServerOS.1#InstallCompletedTime" = 

@@ -1,0 +1,104 @@
+- Data collection timestamp: 6-9-2023  21:51:37
+
+---- Network Device Information for NIC.Embedded.1 ----
+
+@odata.context: /redfish/v1/$metadata#NetworkAdapter.NetworkAdapter
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1
+@odata.type: #NetworkAdapter.v1_9_0.NetworkAdapter
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+DataCenterBridging: {'Capable': False}
+NPAR: {'NparCapable': False, 'NparEnabled': False}
+NPIV: {'MaxDeviceLogins': 0, 'MaxPortLogins': 0}
+NetworkDeviceFunctionCount: 2
+NetworkPortCount: 2
+VirtualizationOffload: {'SRIOV': {'SRIOVVEPACapable': False}, 'VirtualFunction': {'DeviceMaxCount': None, 'MinAssignmentGroupSize': None, 'NetworkPortMaxCount': None}}
+Controllers@odata.count: 1
+Description: Network Adapter View
+Id: NIC.Embedded.1
+Manufacturer: Broadcom Inc. and subsidiaries
+Model: None
+Name: Network Adapter View
+NetworkDeviceFunctions: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkDeviceFunctions'}
+NetworkPorts: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts'}
+NetworkPorts@Redfish.Deprecated: Please migrate to use /redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/{NetworkAdaptersId}/Ports
+Ports: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/Ports'}
+PartNumber: None
+SerialNumber: None
+Status: {'Health': 'OK', 'HealthRollup': 'OK', 'State': 'Enabled'}
+
+---- Network Port Information for NIC.Embedded.1-1-1 ----
+
+@Redfish.Settings: {'@odata.context': '/redfish/v1/$metadata#Settings.Settings', '@odata.type': '#Settings.v1_3_5.Settings', 'SettingsObject': {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkDeviceFunctions/NIC.Embedded.1-1-1/Settings'}, 'SupportedApplyTimes': ['OnReset', 'AtMaintenanceWindowStart', 'InMaintenanceWindowOnReset']}
+@odata.context: /redfish/v1/$metadata#NetworkDeviceFunction.NetworkDeviceFunction
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkDeviceFunctions/NIC.Embedded.1-1-1
+@odata.type: #NetworkDeviceFunction.v1_9_0.NetworkDeviceFunction
+AssignablePhysicalPorts: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.1-1'}]
+AssignablePhysicalPorts@odata.count: 1
+AssignablePhysicalNetworkPorts: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/Ports/NIC.Embedded.1-1'}]
+Description: NetworkDeviceFunction
+Ethernet: {'MACAddress': 'EC:2A:72:33:06:B4', 'MTUSize': None, 'PermanentMACAddress': 'EC:2A:72:33:06:B4', 'VLAN': {'VLANEnable': False, 'VLANId': 1}}
+FibreChannel: {'BootTargets': [{'LUNID': None, 'WWPN': None}], 'BootTargets@odata.count': 1, 'FCoEActiveVLANId': None, 'FCoELocalVLANId': None, 'PermanentWWNN': None, 'PermanentWWPN': None, 'WWNN': None, 'WWNSource': None, 'WWPN': None}
+Id: NIC.Embedded.1-1-1
+Links: {'PhysicalPortAssignment': {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.1-1'}, 'PhysicalNetworkPortAssignment': {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/Ports/NIC.Embedded.1-1'}, 'Oem': {'Dell': {'@odata.type': '#DellOem.v1_3_0.DellOemLinks', 'DellNetworkAttributes': {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkDeviceFunctions/NIC.Embedded.1-1-1/Oem/Dell/DellNetworkAttributes/NIC.Embedded.1-1-1'}, 'CPUAffinity': [], 'CPUAffinity@odata.count': 0}}}
+MaxVirtualFunctions: None
+Name: NetworkDeviceFunction
+NetDevFuncCapabilities: ['Disabled', 'Ethernet']
+NetDevFuncCapabilities@odata.count: 2
+NetDevFuncType: Ethernet
+BusNumber: 1
+CableLengthMetres: None
+ControllerBIOSVersion: 1.39
+DataBusWidth: Unknown
+DeviceDescription: Embedded NIC 1 Port 1 Partition 1
+EFIVersion: 21.6.40
+FCOSDriverVersion: None
+FCoEOSDriverVersion: None
+FCoEOffloadMode: Unknown
+FQDD: NIC.Embedded.1-1-1
+FamilyVersion: 22.31.6
+Id: NIC.Embedded.1-1-1
+ISCSIOSDriverVersion: None
+IdentifierType: None
+InstanceID: NIC.Embedded.1-1-1
+LANDriverVersion: 4.1.
+
+LastSystemInventoryTime: 2023-06-02T01:15:02+00:00
+LastUpdateTime: 2023-03-30T16:41:03+00:00
+LinkDuplex: FullDuplex
+MaxBandwidthPercent: 0
+MediaType: Base T
+MinBandwidthPercent: 0
+Name: DellNIC
+NicMode: Unknown
+PCIDeviceID: 165f
+PCISubDeviceID: 0a6b
+PCISubVendorID: 1028
+PCIVendorID: 14e4
+PartNumber: None
+PermanentFCOEMACAddress: None
+PermanentFIPAddress: None
+PermanentiSCSIMACAddress: None
+ProductName: Broadcom NetXtreme Gigabit Ethernet (BCM5720) - EC:2A:72:33:06:B4
+Protocol: NIC
+RDMAOSDriverVersion: None
+Revision: None
+SNAPIState: Disabled
+SNAPISupport: NotAvailable
+SerialNumber: None
+SlotLength: Unknown
+SlotType: Unknown
+TransceiverPartNumber: None
+TransceiverSerialNumber: None
+TransceiverVendorName: None
+VPISupport: NotAvailable
+VendorName: Broadcom Corp
+VirtualFIPAddress: None
+VirtualISCSIAddress: None
+iScsiOffloadMode: Unknown
+@odata.context: /redfish/v1/$metadata#DellNIC.DellNIC
+@odata.type: #DellNIC.v1_6_0.DellNIC
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkDeviceFunctions/NIC.Embedded.1-1-1/Oem/Dell/DellNIC/NIC.Embedded.1-1-1
+PhysicalPortAssignment: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Embedded.1/NetworkPorts/NIC.Embedded.1-1'}
+PhysicalPortAssignment@Redfish.Deprecated: This property has been deprecated and moved to the Links property to avoid loops on expand.
+Status: {'State': 'Enabled', 'Health': 'OK', 'HealthRollup': 'OK'}
+iSCSIBoot: {}

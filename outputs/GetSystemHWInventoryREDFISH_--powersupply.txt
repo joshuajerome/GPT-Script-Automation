@@ -1,0 +1,71 @@
+
+---- Power Supply Information ----
+
+
+- Details for PS1 Status -
+
+@odata.context: /redfish/v1/$metadata#Power.Power
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Power
+@odata.type: #Power.v1_7_1.Power
+Name: Power
+Id: Power
+Description: Power
+@odata.context: /redfish/v1/$metadata#Power.Power
+@odata.type: #Power.v1_7_1.PowerControl
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Power#/PowerControl/0
+Name: System Power Control
+MemberId: 0
+PowerAllocatedWatts: 1522
+PowerAvailableWatts: 0
+PowerCapacityWatts: 1960.0
+PowerConsumedWatts: 407
+PowerLimit: {'CorrectionInMs': 0, 'LimitException': 'HardPowerOff', 'LimitInWatts': 417}
+PowerMetrics: {'AverageConsumedWatts': 19, 'IntervalInMin': 1, 'MaxConsumedWatts': 19, 'MinConsumedWatts': 19}
+PowerRequestedWatts: 792.311889648438
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}, {'@odata.id': '/redfish/v1/Systems/System.Embedded.1'}]
+PowerControl@odata.count: 1
+@odata.context: /redfish/v1/$metadata#Power.Power
+@odata.type: #Power.v1_7_1.PowerSupply
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/0
+Name: PS1 Status
+MemberId: 0
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power/PowerSupplies/PSU.Slot.1/Assembly'}
+FirmwareVersion: 00.18.31
+InputRanges: [{'InputType': 'AC', 'MaximumFrequencyHz': 35, 'MaximumVoltage': 14, 'MinimumFrequencyHz': 40, 'MinimumVoltage': 132, 'OutputWattage': 1400}]
+EfficiencyPercent: 92.0000016689301
+HotPluggable: True
+PowerOutputWatts: 420.5
+PowerInputWatts: 484.5
+LastPowerOutputWatts: 420.5
+LineInputVoltage: 208
+LineInputVoltageType: AC240V
+Manufacturer: 
+Model: 
+PartNumber: 01CW9GA04
+PowerCapacityWatts: 1400
+PowerSupplyType: AC
+SerialNumber: 
+SparePartNumber: 01CW9GA04
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+Status: {'Health': 'OK', 'State': 'Enabled'}
+ActiveInputVoltage: Unknown
+ActiveInputVoltage@Redfish.Deprecated: Please migrate to use InputNominalVoltageType under DMTF PowerSupply
+Id: PSU.Slot.1
+IsSwitchingSupply: True
+OperationalStatus: ['OK']
+OperationalStatus@odata.count: 1
+RequestedState: NotApplicable
+Links: {'DellPSNumericSensorCollection': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellPSNumericSensors/iDRAC.Embedded.1_0x23_PS1Current1'}], 'DellPSNumericSensorCollection@odata.count': 1}
+Name: DellPowerSupply
+@odata.context: /redfish/v1/$metadata#DellPowerSupply.DellPowerSupply
+@odata.type: #DellPowerSupply.v1_1_1.DellPowerSupply
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Power/Oem/Dell/DellPowerSupply/PSU.Slot.1
+PowerSupplies@odata.count: 1
+Redundancy: []
+Redundancy@odata.count: 0
+Voltages: [{'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/0', 'Name': 'PS1 Voltage 1', 'MemberId': '0', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'PowerSupply', 'ReadingVolts': 208.0, 'SensorNumber': 109, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/0'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}]
+Voltages@odata.count: 1
+
+

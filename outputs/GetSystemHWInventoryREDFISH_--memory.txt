@@ -1,0 +1,57 @@
+
+---- Memory Information ----
+
+- Memory details for DIMM.Socket.A1 -
+
+@odata.context: /redfish/v1/$metadata#Memory.Memory
+@odata.type: #Memory.v1_17_0.Memory
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1
+AllowedSpeedsMHz: [4800]
+AllowedSpeedsMHz@odata.count: 1
+Assembly: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1/Assembly'}
+BaseModuleType: RDIMM
+BusWidthBits: 80
+CacheSizeMiB: 0
+CapacityMiB: 16384
+DataWidthBits: 64
+Description: DIMM A1
+DeviceLocator: DIMM A1
+Enabled: False
+ErrorCorrection: MultiBitECC
+FirmwareRevision: None
+Id: DIMM.Socket.A1
+Links: {'Chassis': {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}, 'Oem': {'Dell': {'@odata.type': '#DellOem.v1_3_0.DellOemLinks', 'CPUAffinity': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'CPUAffinity@odata.count': 1}}, 'Processors': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Processors@odata.count': 1}
+LogicalSizeMiB: 0
+Manufacturer: Micron Technology
+MaxTDPMilliWatts: []
+MaxTDPMilliWatts@odata.count: 0
+MemoryDeviceType: DDR5
+MemorySubsystemControllerManufacturerID: None
+MemorySubsystemControllerProductID: None
+MemoryType: DRAM
+Metrics: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1/MemoryMetrics'}
+ModuleManufacturerID: 0x2c00
+ModuleProductID: None
+Name: DIMM A1
+NonVolatileSizeMiB: 0
+BankLabel: A
+Id: DIMM.Socket.A1
+LastSystemInventoryTime: 2023-06-10T02:42:58+00:00
+LastUpdateTime: 2023-06-02T02:15:02+00:00
+ManufactureDate: Mon Dec 13 06:00:00 2021 UTC
+MemoryTechnology: DRAM
+Model: DDR5 DIMM
+Name: DellMemory
+RemainingRatedWriteEndurancePercent: None
+SystemEraseCapability: NotSupported
+@odata.context: /redfish/v1/$metadata#DellMemory.DellMemory
+@odata.type: #DellMemory.v1_1_0.DellMemory
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1/Oem/Dell/DellMemory/DIMM.Socket.A1
+OperatingMemoryModes: ['Volatile']
+OperatingMemoryModes@odata.count: 1
+OperatingSpeedMhz: 4800
+PartNumber: MTC10F1084S1RC48BA1
+RankCount: 1
+SerialNumber: 336DE8EF
+Status: {'Health': 'OK', 'State': 'Absent'}
+VolatileSizeMiB: 16384

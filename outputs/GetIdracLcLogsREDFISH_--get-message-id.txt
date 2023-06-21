@@ -1,0 +1,5 @@
+
+- INFO, checking iDRAC LC logs for message ID(s) WRK0001, this may take up to 1 minute to complete depending on log size -
+
+
+- INFO, Lifecycle logs also captured in "message_id_entries.txt" file

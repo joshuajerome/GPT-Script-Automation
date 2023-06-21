@@ -1,0 +1,532 @@
+- Data collection timestamp: 2023-6-9  21:29:29
+
+--- BIOS Attributes ---
+Attribute Name: AcPwrRcvry	Attribute Value: Last
+Attribute Name: AcPwrRcvryDelay	Attribute Value: Immediate
+Attribute Name: AcPwrRcvryUserDelay	Attribute Value: 120
+Attribute Name: AesNi	Attribute Value: Enabled
+Attribute Name: AssetTag	Attribute Value: 
+Attribute Name: AuthorizeDeviceFirmware	Attribute Value: Disabled
+Attribute Name: AvxIccpPreGrantLicense	Attribute Value: Disabled
+Attribute Name: BiosNvmeDriver	Attribute Value: DellQualifiedDrives
+Attribute Name: BootMode	Attribute Value: Uefi
+Attribute Name: BootSeqRetry	Attribute Value: Enabled
+Attribute Name: CECriticalSEL	Attribute Value: Disabled
+Attribute Name: ConTermType	Attribute Value: Vt100Vt220
+Attribute Name: ControlledTurbo	Attribute Value: Disabled
+Attribute Name: ControlledTurboMinusBin	Attribute Value: 0
+Attribute Name: CorrEccSmi	Attribute Value: Enabled
+Attribute Name: CpuCrashLogControl	Attribute Value: Disabled
+Attribute Name: CpuInterconnectBusLinkPower	Attribute Value: Disabled
+Attribute Name: CpuPaLimit	Attribute Value: Enabled
+Attribute Name: CurrentEmbVideoState	Attribute Value: Enabled
+Attribute Name: Daylight	Attribute Value: Disabled
+Attribute Name: DcuIpPrefetcher	Attribute Value: Disabled
+Attribute Name: DcuStreamerPrefetcher	Attribute Value: Disabled
+Attribute Name: DeadLineLlcAlloc	Attribute Value: Disabled
+Attribute Name: DellAutoDiscovery	Attribute Value: PlatformDefault
+Attribute Name: DellWyseP25BIOSAccess	Attribute Value: Enabled
+Attribute Name: DimmSlot00	Attribute Value: Enabled
+Attribute Name: DimmSlot01	Attribute Value: Enabled
+Attribute Name: DimmSlot02	Attribute Value: Enabled
+Attribute Name: DimmSlot03	Attribute Value: Enabled
+Attribute Name: DimmSlot04	Attribute Value: Enabled
+Attribute Name: DimmSlot05	Attribute Value: Enabled
+Attribute Name: DimmSlot06	Attribute Value: Enabled
+Attribute Name: DimmSlot07	Attribute Value: Enabled
+Attribute Name: DimmSlot08	Attribute Value: Enabled
+Attribute Name: DimmSlot09	Attribute Value: Enabled
+Attribute Name: DimmSlot10	Attribute Value: Enabled
+Attribute Name: DimmSlot11	Attribute Value: Enabled
+Attribute Name: DimmSlot12	Attribute Value: Enabled
+Attribute Name: DimmSlot13	Attribute Value: Enabled
+Attribute Name: DimmSlot14	Attribute Value: Enabled
+Attribute Name: DimmSlot15	Attribute Value: Enabled
+Attribute Name: DimmSlot16	Attribute Value: Enabled
+Attribute Name: DimmSlot17	Attribute Value: Enabled
+Attribute Name: DimmSlot18	Attribute Value: Enabled
+Attribute Name: DimmSlot19	Attribute Value: Enabled
+Attribute Name: DimmSlot20	Attribute Value: Enabled
+Attribute Name: DimmSlot21	Attribute Value: Enabled
+Attribute Name: DimmSlot22	Attribute Value: Enabled
+Attribute Name: DimmSlot23	Attribute Value: Enabled
+Attribute Name: DimmSlot24	Attribute Value: Enabled
+Attribute Name: DimmSlot25	Attribute Value: Enabled
+Attribute Name: DimmSlot26	Attribute Value: Enabled
+Attribute Name: DimmSlot27	Attribute Value: Enabled
+Attribute Name: DimmSlot28	Attribute Value: Enabled
+Attribute Name: DimmSlot29	Attribute Value: Enabled
+Attribute Name: DimmSlot30	Attribute Value: Enabled
+Attribute Name: DimmSlot31	Attribute Value: Enabled
+Attribute Name: DirectoryAtoS	Attribute Value: Disabled
+Attribute Name: DirectoryMode	Attribute Value: Enabled
+Attribute Name: DynamicIss	Attribute Value: Disabled
+Attribute Name: EmbNic1Nic2	Attribute Value: Enabled
+Attribute Name: EmbSata	Attribute Value: AhciMode
+Attribute Name: EmbVideo	Attribute Value: Enabled
+Attribute Name: EnableTmeBypass	Attribute Value: Disabled
+Attribute Name: EnergyEfficientTurbo	Attribute Value: Disabled
+Attribute Name: EnergyPerformanceBias	Attribute Value: MaxPower
+Attribute Name: ErrPrompt	Attribute Value: Disabled
+Attribute Name: ExtSerialConnector	Attribute Value: Serial1
+Attribute Name: FailSafeBaud	Attribute Value: 115200
+Attribute Name: ForceInt10	Attribute Value: Disabled
+Attribute Name: GenericUsbBoot	Attribute Value: Disabled
+Attribute Name: HddFailover	Attribute Value: Disabled
+Attribute Name: HddPlaceholder	Attribute Value: Disabled
+Attribute Name: HttpDev1DhcpEnDis	Attribute Value: Enabled
+Attribute Name: HttpDev1Dns1	Attribute Value: 
+Attribute Name: HttpDev1Dns2	Attribute Value: 
+Attribute Name: HttpDev1DnsDhcpEnDis	Attribute Value: Enabled
+Attribute Name: HttpDev1EnDis	Attribute Value: Disabled
+Attribute Name: HttpDev1Gateway	Attribute Value: 
+Attribute Name: HttpDev1Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: HttpDev1Ip	Attribute Value: 
+Attribute Name: HttpDev1Mask	Attribute Value: 
+Attribute Name: HttpDev1Protocol	Attribute Value: IPv4
+Attribute Name: HttpDev1TlsMode	Attribute Value: OneWay
+Attribute Name: HttpDev1Uri	Attribute Value: 
+Attribute Name: HttpDev1VlanEnDis	Attribute Value: Disabled
+Attribute Name: HttpDev1VlanId	Attribute Value: 1
+Attribute Name: HttpDev1VlanPriority	Attribute Value: 0
+Attribute Name: HttpDev2DhcpEnDis	Attribute Value: Enabled
+Attribute Name: HttpDev2Dns1	Attribute Value: 
+Attribute Name: HttpDev2Dns2	Attribute Value: 
+Attribute Name: HttpDev2DnsDhcpEnDis	Attribute Value: Enabled
+Attribute Name: HttpDev2EnDis	Attribute Value: Disabled
+Attribute Name: HttpDev2Gateway	Attribute Value: 
+Attribute Name: HttpDev2Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: HttpDev2Ip	Attribute Value: 
+Attribute Name: HttpDev2Mask	Attribute Value: 
+Attribute Name: HttpDev2Protocol	Attribute Value: IPv4
+Attribute Name: HttpDev2TlsMode	Attribute Value: OneWay
+Attribute Name: HttpDev2Uri	Attribute Value: 
+Attribute Name: HttpDev2VlanEnDis	Attribute Value: Disabled
+Attribute Name: HttpDev2VlanId	Attribute Value: 1
+Attribute Name: HttpDev2VlanPriority	Attribute Value: 0
+Attribute Name: HttpDev3DhcpEnDis	Attribute Value: Enabled
+Attribute Name: HttpDev3Dns1	Attribute Value: 
+Attribute Name: HttpDev3Dns2	Attribute Value: 
+Attribute Name: HttpDev3DnsDhcpEnDis	Attribute Value: Enabled
+Attribute Name: HttpDev3EnDis	Attribute Value: Disabled
+Attribute Name: HttpDev3Gateway	Attribute Value: 
+Attribute Name: HttpDev3Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: HttpDev3Ip	Attribute Value: 
+Attribute Name: HttpDev3Mask	Attribute Value: 
+Attribute Name: HttpDev3Protocol	Attribute Value: IPv4
+Attribute Name: HttpDev3TlsMode	Attribute Value: OneWay
+Attribute Name: HttpDev3Uri	Attribute Value: 
+Attribute Name: HttpDev3VlanEnDis	Attribute Value: Disabled
+Attribute Name: HttpDev3VlanId	Attribute Value: 1
+Attribute Name: HttpDev3VlanPriority	Attribute Value: 0
+Attribute Name: HttpDev4DhcpEnDis	Attribute Value: Enabled
+Attribute Name: HttpDev4Dns1	Attribute Value: 
+Attribute Name: HttpDev4Dns2	Attribute Value: 
+Attribute Name: HttpDev4DnsDhcpEnDis	Attribute Value: Enabled
+Attribute Name: HttpDev4EnDis	Attribute Value: Disabled
+Attribute Name: HttpDev4Gateway	Attribute Value: 
+Attribute Name: HttpDev4Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: HttpDev4Ip	Attribute Value: 
+Attribute Name: HttpDev4Mask	Attribute Value: 
+Attribute Name: HttpDev4Protocol	Attribute Value: IPv4
+Attribute Name: HttpDev4TlsMode	Attribute Value: OneWay
+Attribute Name: HttpDev4Uri	Attribute Value: 
+Attribute Name: HttpDev4VlanEnDis	Attribute Value: Disabled
+Attribute Name: HttpDev4VlanId	Attribute Value: 1
+Attribute Name: HttpDev4VlanPriority	Attribute Value: 0
+Attribute Name: InBandManageabilityInterface	Attribute Value: Enabled
+Attribute Name: IntelSgx	Attribute Value: Off
+Attribute Name: IntelTxt	Attribute Value: Off
+Attribute Name: IoatEngine	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1Auth	Attribute Value: None
+Attribute Name: IscsiDev1Con1ChapName	Attribute Value: 
+Attribute Name: IscsiDev1Con1ChapSecret	Attribute Value: 
+Attribute Name: IscsiDev1Con1ChapType	Attribute Value: OneWay
+Attribute Name: IscsiDev1Con1DhcpEnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1EnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1Gateway	Attribute Value: 
+Attribute Name: IscsiDev1Con1Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: IscsiDev1Con1Ip	Attribute Value: 
+Attribute Name: IscsiDev1Con1IsId	Attribute Value: 
+Attribute Name: IscsiDev1Con1Lun	Attribute Value: 0
+Attribute Name: IscsiDev1Con1Mask	Attribute Value: 
+Attribute Name: IscsiDev1Con1Port	Attribute Value: 3260
+Attribute Name: IscsiDev1Con1Protocol	Attribute Value: IPv4
+Attribute Name: IscsiDev1Con1Retry	Attribute Value: 3
+Attribute Name: IscsiDev1Con1RevChapName	Attribute Value: 
+Attribute Name: IscsiDev1Con1RevChapSecret	Attribute Value: 
+Attribute Name: IscsiDev1Con1TargetIp	Attribute Value: 
+Attribute Name: IscsiDev1Con1TargetName	Attribute Value: 
+Attribute Name: IscsiDev1Con1TgtDhcpEnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1Timeout	Attribute Value: 10000
+Attribute Name: IscsiDev1Con1VlanEnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con1VlanId	Attribute Value: 1
+Attribute Name: IscsiDev1Con1VlanPriority	Attribute Value: 0
+Attribute Name: IscsiDev1Con2Auth	Attribute Value: None
+Attribute Name: IscsiDev1Con2ChapName	Attribute Value: 
+Attribute Name: IscsiDev1Con2ChapSecret	Attribute Value: 
+Attribute Name: IscsiDev1Con2ChapType	Attribute Value: OneWay
+Attribute Name: IscsiDev1Con2DhcpEnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con2EnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con2Gateway	Attribute Value: 
+Attribute Name: IscsiDev1Con2Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: IscsiDev1Con2Ip	Attribute Value: 
+Attribute Name: IscsiDev1Con2IsId	Attribute Value: 
+Attribute Name: IscsiDev1Con2Lun	Attribute Value: 0
+Attribute Name: IscsiDev1Con2Mask	Attribute Value: 
+Attribute Name: IscsiDev1Con2Port	Attribute Value: 3260
+Attribute Name: IscsiDev1Con2Protocol	Attribute Value: IPv4
+Attribute Name: IscsiDev1Con2Retry	Attribute Value: 3
+Attribute Name: IscsiDev1Con2RevChapName	Attribute Value: 
+Attribute Name: IscsiDev1Con2RevChapSecret	Attribute Value: 
+Attribute Name: IscsiDev1Con2TargetIp	Attribute Value: 
+Attribute Name: IscsiDev1Con2TargetName	Attribute Value: 
+Attribute Name: IscsiDev1Con2TgtDhcpEnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con2Timeout	Attribute Value: 10000
+Attribute Name: IscsiDev1Con2VlanEnDis	Attribute Value: Disabled
+Attribute Name: IscsiDev1Con2VlanId	Attribute Value: 1
+Attribute Name: IscsiDev1Con2VlanPriority	Attribute Value: 0
+Attribute Name: IscsiDev1ConOrder	Attribute Value: Con1Con2
+Attribute Name: IscsiDev1EnDis	Attribute Value: Disabled
+Attribute Name: IscsiInitiatorName	Attribute Value: 
+Attribute Name: KernelDmaProtection	Attribute Value: Disabled
+Attribute Name: LlcPrefetch	Attribute Value: Enabled
+Attribute Name: LmceEn	Attribute Value: Enabled
+Attribute Name: LogicalProc	Attribute Value: Enabled
+Attribute Name: MadtCoreEnumeration	Attribute Value: RoundRobin
+Attribute Name: MemFrequency	Attribute Value: MaxPerf
+Attribute Name: MemOpMode	Attribute Value: OptimizerMode
+Attribute Name: MemPatrolScrub	Attribute Value: Standard
+Attribute Name: MemRefreshRate	Attribute Value: 1x
+Attribute Name: MemTest	Attribute Value: Disabled
+Attribute Name: MemoryEncryption	Attribute Value: Disabled
+Attribute Name: MemoryTraining	Attribute Value: MemoryTrainingFast
+Attribute Name: MonitorMwait	Attribute Value: Enabled
+Attribute Name: NodeInterleave	Attribute Value: Disabled
+Attribute Name: NumLock	Attribute Value: On
+Attribute Name: NumberOfPxeDevices	Attribute Value: 4
+Attribute Name: NvmeMode	Attribute Value: NonRaid
+Attribute Name: NvmeofEnDis	Attribute Value: Disabled
+Attribute Name: NvmeofHostId	Attribute Value: 4C4C4544-0050-3010-8030-C3C04F353038
+Attribute Name: NvmeofHostNqn	Attribute Value: nqn.1988-11.com.dell:PowerEdge.R760.CP00508
+Attribute Name: NvmeofHostSecurityPath	Attribute Value: 
+Attribute Name: NvmeofSubsys1Address	Attribute Value: 
+Attribute Name: NvmeofSubsys1Auth	Attribute Value: None
+Attribute Name: NvmeofSubsys1ConInterface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: NvmeofSubsys1ConProtocol	Attribute Value: IPv4
+Attribute Name: NvmeofSubsys1ControllerId	Attribute Value: 0
+Attribute Name: NvmeofSubsys1EnDis	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys1HostDhcp	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys1HostGateway	Attribute Value: 
+Attribute Name: NvmeofSubsys1HostIP	Attribute Value: 
+Attribute Name: NvmeofSubsys1HostMask	Attribute Value: 
+Attribute Name: NvmeofSubsys1InfoDhcp	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys1NameSpaceId	Attribute Value: 
+Attribute Name: NvmeofSubsys1Nqn	Attribute Value: 
+Attribute Name: NvmeofSubsys1Port	Attribute Value: 4420
+Attribute Name: NvmeofSubsys1Retry	Attribute Value: 3
+Attribute Name: NvmeofSubsys1Security	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys1SecurityKeyPath	Attribute Value: 
+Attribute Name: NvmeofSubsys1Timeout	Attribute Value: 10000
+Attribute Name: NvmeofSubsys1TransType	Attribute Value: TCP
+Attribute Name: NvmeofSubsys1VlanEnDis	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys1VlanId	Attribute Value: 1
+Attribute Name: NvmeofSubsys1VlanPriority	Attribute Value: 0
+Attribute Name: NvmeofSubsys2Address	Attribute Value: 
+Attribute Name: NvmeofSubsys2Auth	Attribute Value: None
+Attribute Name: NvmeofSubsys2ConInterface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: NvmeofSubsys2ConProtocol	Attribute Value: IPv4
+Attribute Name: NvmeofSubsys2ControllerId	Attribute Value: 0
+Attribute Name: NvmeofSubsys2EnDis	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys2HostDhcp	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys2HostGateway	Attribute Value: 
+Attribute Name: NvmeofSubsys2HostIP	Attribute Value: 
+Attribute Name: NvmeofSubsys2HostMask	Attribute Value: 
+Attribute Name: NvmeofSubsys2InfoDhcp	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys2NameSpaceId	Attribute Value: 
+Attribute Name: NvmeofSubsys2Nqn	Attribute Value: 
+Attribute Name: NvmeofSubsys2Port	Attribute Value: 4420
+Attribute Name: NvmeofSubsys2Retry	Attribute Value: 3
+Attribute Name: NvmeofSubsys2Security	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys2SecurityKeyPath	Attribute Value: 
+Attribute Name: NvmeofSubsys2Timeout	Attribute Value: 10000
+Attribute Name: NvmeofSubsys2TransType	Attribute Value: TCP
+Attribute Name: NvmeofSubsys2VlanEnDis	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys2VlanId	Attribute Value: 1
+Attribute Name: NvmeofSubsys2VlanPriority	Attribute Value: 0
+Attribute Name: NvmeofSubsys3Address	Attribute Value: 
+Attribute Name: NvmeofSubsys3Auth	Attribute Value: None
+Attribute Name: NvmeofSubsys3ConInterface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: NvmeofSubsys3ConProtocol	Attribute Value: IPv4
+Attribute Name: NvmeofSubsys3ControllerId	Attribute Value: 0
+Attribute Name: NvmeofSubsys3EnDis	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys3HostDhcp	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys3HostGateway	Attribute Value: 
+Attribute Name: NvmeofSubsys3HostIP	Attribute Value: 
+Attribute Name: NvmeofSubsys3HostMask	Attribute Value: 
+Attribute Name: NvmeofSubsys3InfoDhcp	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys3NameSpaceId	Attribute Value: 
+Attribute Name: NvmeofSubsys3Nqn	Attribute Value: 
+Attribute Name: NvmeofSubsys3Port	Attribute Value: 4420
+Attribute Name: NvmeofSubsys3Retry	Attribute Value: 3
+Attribute Name: NvmeofSubsys3Security	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys3SecurityKeyPath	Attribute Value: 
+Attribute Name: NvmeofSubsys3Timeout	Attribute Value: 10000
+Attribute Name: NvmeofSubsys3TransType	Attribute Value: TCP
+Attribute Name: NvmeofSubsys3VlanEnDis	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys3VlanId	Attribute Value: 1
+Attribute Name: NvmeofSubsys3VlanPriority	Attribute Value: 0
+Attribute Name: NvmeofSubsys4Address	Attribute Value: 
+Attribute Name: NvmeofSubsys4Auth	Attribute Value: None
+Attribute Name: NvmeofSubsys4ConInterface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: NvmeofSubsys4ConProtocol	Attribute Value: IPv4
+Attribute Name: NvmeofSubsys4ControllerId	Attribute Value: 0
+Attribute Name: NvmeofSubsys4EnDis	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys4HostDhcp	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys4HostGateway	Attribute Value: 
+Attribute Name: NvmeofSubsys4HostIP	Attribute Value: 
+Attribute Name: NvmeofSubsys4HostMask	Attribute Value: 
+Attribute Name: NvmeofSubsys4InfoDhcp	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys4NameSpaceId	Attribute Value: 
+Attribute Name: NvmeofSubsys4Nqn	Attribute Value: 
+Attribute Name: NvmeofSubsys4Port	Attribute Value: 4420
+Attribute Name: NvmeofSubsys4Retry	Attribute Value: 3
+Attribute Name: NvmeofSubsys4Security	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys4SecurityKeyPath	Attribute Value: 
+Attribute Name: NvmeofSubsys4Timeout	Attribute Value: 10000
+Attribute Name: NvmeofSubsys4TransType	Attribute Value: TCP
+Attribute Name: NvmeofSubsys4VlanEnDis	Attribute Value: Disabled
+Attribute Name: NvmeofSubsys4VlanId	Attribute Value: 1
+Attribute Name: NvmeofSubsys4VlanPriority	Attribute Value: 0
+Attribute Name: OneTimeBootMode	Attribute Value: Disabled
+Attribute Name: OneTimeUefiBootSeqDev	Attribute Value: RAID.SL.3-2
+Attribute Name: OptimizerMode	Attribute Value: Auto
+Attribute Name: OsWatchdogTimer	Attribute Value: Disabled
+Attribute Name: PCIRootDeviceUnhide	Attribute Value: Disabled
+Attribute Name: PPROnUCE	Attribute Value: Enabled
+Attribute Name: PasswordStatus	Attribute Value: Unlocked
+Attribute Name: PcieAspmL1	Attribute Value: Disabled
+Attribute Name: PowerCycleRequest	Attribute Value: None
+Attribute Name: Proc1Brand	Attribute Value: Intel(R) Xeon(R) Platinum 8452Y
+Attribute Name: Proc1Id	Attribute Value: 6-8F-6
+Attribute Name: Proc1L2Cache	Attribute Value: 36x2 MB
+Attribute Name: Proc1L3Cache	Attribute Value: 69120 KB
+Attribute Name: Proc1Microcode	Attribute Value: 0x2B0001B0
+Attribute Name: Proc1NumCores	Attribute Value: 36
+Attribute Name: ProcAdjCacheLine	Attribute Value: Enabled
+Attribute Name: ProcAmpPrefetch	Attribute Value: Disabled
+Attribute Name: ProcAvxP1	Attribute Value: Normal
+Attribute Name: ProcC1E	Attribute Value: Disabled
+Attribute Name: ProcCStates	Attribute Value: Disabled
+Attribute Name: ProcCoreSpeed	Attribute Value: 2.00 GHz
+Attribute Name: ProcCores	Attribute Value: All
+Attribute Name: ProcHomelessPrefetch	Attribute Value: Auto
+Attribute Name: ProcHwPrefetcher	Attribute Value: Disabled
+Attribute Name: ProcIssSetting	Attribute Value: IssOp1
+Attribute Name: ProcPwrPerf	Attribute Value: MaxPerf
+Attribute Name: ProcTurboMode	Attribute Value: Enabled
+Attribute Name: ProcUncoreFreqRapl	Attribute Value: Enabled
+Attribute Name: ProcVirtualization	Attribute Value: Enabled
+Attribute Name: ProcX2Apic	Attribute Value: Enabled
+Attribute Name: ProcessorActivePbf	Attribute Value: Disabled
+Attribute Name: ProcessorSstCpSetting	Attribute Value: Disabled
+Attribute Name: PwrButton	Attribute Value: Enabled
+Attribute Name: PxeDev10Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev10Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev10VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev10VlanId	Attribute Value: 1
+Attribute Name: PxeDev10VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev11Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev11Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev11VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev11VlanId	Attribute Value: 1
+Attribute Name: PxeDev11VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev12Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev12Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev12VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev12VlanId	Attribute Value: 1
+Attribute Name: PxeDev12VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev13Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev13Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev13VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev13VlanId	Attribute Value: 1
+Attribute Name: PxeDev13VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev14Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev14Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev14VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev14VlanId	Attribute Value: 1
+Attribute Name: PxeDev14VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev15Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev15Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev15VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev15VlanId	Attribute Value: 1
+Attribute Name: PxeDev15VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev16Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev16Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev16VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev16VlanId	Attribute Value: 1
+Attribute Name: PxeDev16VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev1EnDis	Attribute Value: Enabled
+Attribute Name: PxeDev1Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev1Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev1VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev1VlanId	Attribute Value: 1
+Attribute Name: PxeDev1VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev2EnDis	Attribute Value: Disabled
+Attribute Name: PxeDev2Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev2Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev2VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev2VlanId	Attribute Value: 1
+Attribute Name: PxeDev2VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev3EnDis	Attribute Value: Disabled
+Attribute Name: PxeDev3Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev3Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev3VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev3VlanId	Attribute Value: 1
+Attribute Name: PxeDev3VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev4EnDis	Attribute Value: Disabled
+Attribute Name: PxeDev4Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev4Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev4VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev4VlanId	Attribute Value: 1
+Attribute Name: PxeDev4VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev5Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev5Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev5VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev5VlanId	Attribute Value: 1
+Attribute Name: PxeDev5VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev6Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev6Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev6VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev6VlanId	Attribute Value: 1
+Attribute Name: PxeDev6VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev7Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev7Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev7VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev7VlanId	Attribute Value: 1
+Attribute Name: PxeDev7VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev8Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev8Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev8VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev8VlanId	Attribute Value: 1
+Attribute Name: PxeDev8VlanPriority	Attribute Value: 0
+Attribute Name: PxeDev9Interface	Attribute Value: NIC.Embedded.1-1-1
+Attribute Name: PxeDev9Protocol	Attribute Value: IPv4
+Attribute Name: PxeDev9VlanEnDis	Attribute Value: Disabled
+Attribute Name: PxeDev9VlanId	Attribute Value: 1
+Attribute Name: PxeDev9VlanPriority	Attribute Value: 0
+Attribute Name: RedirAfterBoot	Attribute Value: Enabled
+Attribute Name: RedundantOsBoot	Attribute Value: Disabled
+Attribute Name: RedundantOsLocation	Attribute Value: None
+Attribute Name: RedundantOsState	Attribute Value: Visible
+Attribute Name: SHA256SetupPassword	Attribute Value: 
+Attribute Name: SHA256SetupPasswordSalt	Attribute Value: 
+Attribute Name: SHA256SystemPassword	Attribute Value: 
+Attribute Name: SHA256SystemPasswordSalt	Attribute Value: 
+Attribute Name: SataPortA	Attribute Value: Auto
+Attribute Name: SataPortACapacity	Attribute Value: N/A
+Attribute Name: SataPortADriveType	Attribute Value: Unknown Device
+Attribute Name: SataPortAModel	Attribute Value: Unknown
+Attribute Name: SataPortB	Attribute Value: Auto
+Attribute Name: SataPortBCapacity	Attribute Value: N/A
+Attribute Name: SataPortBDriveType	Attribute Value: Unknown Device
+Attribute Name: SataPortBModel	Attribute Value: Unknown
+Attribute Name: SataPortC	Attribute Value: Auto
+Attribute Name: SataPortCCapacity	Attribute Value: N/A
+Attribute Name: SataPortCDriveType	Attribute Value: Unknown Device
+Attribute Name: SataPortCModel	Attribute Value: Unknown
+Attribute Name: SataPortD	Attribute Value: Auto
+Attribute Name: SataPortDCapacity	Attribute Value: N/A
+Attribute Name: SataPortDDriveType	Attribute Value: Unknown Device
+Attribute Name: SataPortDModel	Attribute Value: Unknown
+Attribute Name: SataPortE	Attribute Value: Auto
+Attribute Name: SataPortECapacity	Attribute Value: N/A
+Attribute Name: SataPortEDriveType	Attribute Value: Unknown Device
+Attribute Name: SataPortEModel	Attribute Value: Unknown
+Attribute Name: SataPortF	Attribute Value: Auto
+Attribute Name: SataPortFCapacity	Attribute Value: N/A
+Attribute Name: SataPortFDriveType	Attribute Value: Unknown Device
+Attribute Name: SataPortFModel	Attribute Value: Unknown
+Attribute Name: SataPortG	Attribute Value: Auto
+Attribute Name: SataPortGCapacity	Attribute Value: N/A
+Attribute Name: SataPortGDriveType	Attribute Value: Unknown Device
+Attribute Name: SataPortGModel	Attribute Value: Unknown
+Attribute Name: SataPortH	Attribute Value: Auto
+Attribute Name: SataPortHCapacity	Attribute Value: N/A
+Attribute Name: SataPortHDriveType	Attribute Value: Unknown Device
+Attribute Name: SataPortHModel	Attribute Value: Unknown
+Attribute Name: SecureBoot	Attribute Value: Disabled
+Attribute Name: SecureBootMode	Attribute Value: DeployedMode
+Attribute Name: SecureBootPolicy	Attribute Value: Standard
+Attribute Name: SecurityFreezeLock	Attribute Value: Enabled
+Attribute Name: SerialComm	Attribute Value: OnNoConRedir
+Attribute Name: SerialPortAddress	Attribute Value: Com1
+Attribute Name: SetBootOrderDis	Attribute Value: 
+Attribute Name: SetBootOrderDis2	Attribute Value: 
+Attribute Name: SetBootOrderEn	Attribute Value: RAID.SL.3-2,NIC.PxeDevice.1-1
+Attribute Name: SetBootOrderEn2	Attribute Value: 
+Attribute Name: SetBootOrderFqdd1	Attribute Value: 
+Attribute Name: SetBootOrderFqdd10	Attribute Value: 
+Attribute Name: SetBootOrderFqdd11	Attribute Value: 
+Attribute Name: SetBootOrderFqdd12	Attribute Value: 
+Attribute Name: SetBootOrderFqdd13	Attribute Value: 
+Attribute Name: SetBootOrderFqdd14	Attribute Value: 
+Attribute Name: SetBootOrderFqdd15	Attribute Value: 
+Attribute Name: SetBootOrderFqdd16	Attribute Value: 
+Attribute Name: SetBootOrderFqdd2	Attribute Value: 
+Attribute Name: SetBootOrderFqdd3	Attribute Value: 
+Attribute Name: SetBootOrderFqdd4	Attribute Value: 
+Attribute Name: SetBootOrderFqdd5	Attribute Value: 
+Attribute Name: SetBootOrderFqdd6	Attribute Value: 
+Attribute Name: SetBootOrderFqdd7	Attribute Value: 
+Attribute Name: SetBootOrderFqdd8	Attribute Value: 
+Attribute Name: SetBootOrderFqdd9	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd1	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd10	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd11	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd12	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd13	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd14	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd15	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd16	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd2	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd3	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd4	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd5	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd6	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd7	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd8	Attribute Value: 
+Attribute Name: SetLegacyHddOrderFqdd9	Attribute Value: 
+Attribute Name: SetupPassword	Attribute Value: None
+Attribute Name: SmmSecurityMitigation	Attribute Value: Disabled
+Attribute Name: SnoopHldOff	Attribute Value: Roll2KCycles
+Attribute Name: SriovGlobalEnable	Attribute Value: Disabled
+Attribute Name: SubNumaCluster	Attribute Value: Disabled
+Attribute Name: SysMemSize	Attribute Value: 16 GB
+Attribute Name: SysMemSpeed	Attribute Value: 4800 MT/s
+Attribute Name: SysMemType	Attribute Value: ECC DDR5
+Attribute Name: SysMfrContactInfo	Attribute Value: www.dell.com
+Attribute Name: SysPassword	Attribute Value: None
+Attribute Name: SysPrepClean	Attribute Value: None
+Attribute Name: SysProfile	Attribute Value: PerfOptimized
+Attribute Name: SystemBiosVersion	Attribute Value: 1.3.2
+Attribute Name: SystemCpldVersion	Attribute Value: 1.0.5
+Attribute Name: SystemManufacturer	Attribute Value: Dell Inc.
+Attribute Name: SystemMeVersion	Attribute Value: 6.0.4.33
+Attribute Name: SystemModelName	Attribute Value: PowerEdge R760
+Attribute Name: SystemServiceTag	Attribute Value: CP00508
+Attribute Name: TimeZone	Attribute Value: LOCAL
+Attribute Name: TpmInfo	Attribute Value: No TPM present
+Attribute Name: TpmPpiBypassClear	Attribute Value: Disabled
+Attribute Name: TpmPpiBypassProvision	Attribute Value: Disabled
+Attribute Name: UefiComplianceVersion	Attribute Value: 2.7
+Attribute Name: UefiVariableAccess	Attribute Value: Standard
+Attribute Name: UmaBasedClusteringStatus	Attribute Value: Quadrant
+Attribute Name: UncoreFrequency	Attribute Value: MaxUFS
+Attribute Name: UpiPrefetch	Attribute Value: Enabled
+Attribute Name: UsbManagedPort	Attribute Value: On
+Attribute Name: UsbPorts	Attribute Value: AllOn
+Attribute Name: VideoMem	Attribute Value: 16 MB
+Attribute Name: WorkloadProfile	Attribute Value: NotConfigured
+Attribute Name: WriteCache	Attribute Value: Disabled
+Attribute Name: XptPrefetch	Attribute Value: Enabled

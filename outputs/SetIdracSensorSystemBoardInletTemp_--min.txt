@@ -1,0 +1,7 @@
+
+- INFO, setting LowerCaution property to 4 reading
+- PASS, PATCH operation passed to set LowerCaution property
+
+- INFO, setting UpperCaution property to 46 reading
+- FAIL, PATCH command failed to set UpperCaution property, status code 400 returned, detailed error results: 
+{'error': {'@Message.ExtendedInfo': [{'Message': 'The specified object value is not valid.', 'MessageArgs': ['UpperCaution.Reading'], 'MessageArgs@odata.count': 1, 'MessageId': 'IDRAC.2.9.SWC0283', 'RelatedProperties': [], 'RelatedProperties@odata.count': 0, 'Resolution': 'Enter a valid value for the corresponding object.', 'Severity': 'Warning'}], 'code': 'Base.1.12.GeneralError', 'message': 'A general error has occurred. See ExtendedInfo for more information'}}

@@ -1,0 +1,119 @@
+
+- Volume(s) detected for RAID.SL.3-1 controller -
+
+('@Redfish.Settings',
+ {'@odata.context': '/redfish/v1/$metadata#Settings.Settings',
+  '@odata.type': '#Settings.v1_3_5.Settings',
+  'SettingsObject': {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Volumes/Disk.Virtual.239:RAID.SL.3-1/Settings'},
+  'SupportedApplyTimes': ['Immediate',
+                          'OnReset',
+                          'AtMaintenanceWindowStart',
+                          'InMaintenanceWindowOnReset']})
+('@odata.context', '/redfish/v1/$metadata#Volume.Volume')
+('@odata.id',
+ '/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Volumes/Disk.Virtual.239:RAID.SL.3-1')
+('@odata.type', '#Volume.v1_8_0.Volume')
+('Actions',
+ {'#Volume.CheckConsistency': {'@Redfish.OperationApplyTimeSupport': {'@odata.type': '#Settings.v1_3_5.OperationApplyTimeSupport',
+                                                                      'SupportedValues': ['Immediate',
+                                                                                          'OnReset']},
+                               'target': '/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Volumes/Disk.Virtual.239:RAID.SL.3-1/Actions/Volume.CheckConsistency'},
+  '#Volume.Initialize': {'@Redfish.OperationApplyTimeSupport': {'@odata.type': '#Settings.v1_3_5.OperationApplyTimeSupport',
+                                                                'SupportedValues': ['Immediate',
+                                                                                    'OnReset']},
+                         'InitializeType@Redfish.AllowableValues': ['Fast',
+                                                                    'Slow'],
+                         'target': '/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Volumes/Disk.Virtual.239:RAID.SL.3-1/Actions/Volume.Initialize'}})
+('BlockSizeBytes', 512)
+('CapacityBytes', 479559942144)
+('Description', 'Virtual Disk 239 on RAID Controller in SL 3')
+('DisplayName', 'Virtual Disk239')
+('Encrypted', False)
+('EncryptionTypes', ['NativeDriveEncryption'])
+('EncryptionTypes@odata.count', 1)
+('Id', 'Disk.Virtual.239:RAID.SL.3-1')
+('Identifiers', [])
+('Identifiers@odata.count', 0)
+('Links',
+ {'Drives': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1'}],
+  'Drives@odata.count': 1})
+('MediaSpanCount', 1)
+('Name', 'Virtual Disk239')
+('Oem',
+ {'Dell': {'@odata.type': '#DellVolume.v1_0_0.DellVolume',
+           'DellVirtualDisk': {'@odata.context': '/redfish/v1/$metadata#DellVirtualDisk.DellVirtualDisk',
+                               '@odata.id': '/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Volumes/Disk.Virtual.239:RAID.SL.3-1/Oem/Dell/DellVolumes/Disk.Virtual.239:RAID.SL.3-1',
+                               '@odata.type': '#DellVirtualDisk.v1_2_0.DellVirtualDisk',
+                               'BusProtocol': 'SATA',
+                               'Cachecade': 'NonCachecadeVD',
+                               'Description': 'An instance of DellVirtualDisk '
+                                              'will have data specific to the '
+                                              'Virtual Disks in the system.',
+                               'DiskCachePolicy': 'Default',
+                               'Id': 'Disk.Virtual.239:RAID.SL.3-1',
+                               'LastSystemInventoryTime': '2023-06-02T01:15:02+00:00',
+                               'LastUpdateTime': '2023-06-02T02:15:02+00:00',
+                               'LockStatus': 'Unlocked',
+                               'MediaType': 'SolidStateDrive',
+                               'Name': 'DellVirtualDisk',
+                               'ObjectStatus': 'Current',
+                               'OperationName': 'None',
+                               'OperationPercentComplete': 0,
+                               'PrimaryStatus': 'Unknown',
+                               'RaidStatus': 'Online',
+                               'ReadCachePolicy': 'ReadAhead',
+                               'RemainingRedundancy': 0,
+                               'SpanDepth': 1,
+                               'SpanLength': 1,
+                               'StartingLBAinBlocks': 0,
+                               'StripeSize': '256KB',
+                               'T10PIStatus': 'Disabled',
+                               'VirtualDiskTargetID': 239,
+                               'WriteCachePolicy': 'WriteBack'},
+           'DellVirtualDisk@Redfish.Deprecated': 'Please migrate to use '
+                                                 'DellVolume',
+           'DellVolume': {'BusProtocol': 'SATA',
+                          'Cachecade': 'NonCachecadeVD',
+                          'DiskCachePolicy': 'Default',
+                          'DiskCachePolicy@Redfish.AllowableValues': ['Default',
+                                                                      'Disabled',
+                                                                      'Enabled'],
+                          'LastSystemInventoryTime': '2023-06-02T01:15:02+00:00',
+                          'LastUpdateTime': '2023-06-02T02:15:02+00:00',
+                          'LockStatus': 'Unlocked',
+                          'MediaType': 'SolidStateDrive',
+                          'ObjectStatus': 'Current',
+                          'OperationName': 'None',
+                          'OperationPercentComplete': 0,
+                          'PrimaryStatus': 'Unknown',
+                          'RaidStatus': 'Online',
+                          'RemainingRedundancy': 0,
+                          'SpanDepth': 1,
+                          'SpanLength': 1,
+                          'StartingLBAinBlocks': 0,
+                          'StripeSize': '256KB',
+                          'T10PIStatus': 'Disabled',
+                          'VirtualDiskTargetID': 239}}})
+('Operations', [])
+('Operations@odata.count', 0)
+('OptimumIOSizeBytes', 262144)
+('RAIDType', 'RAID0')
+('ReadCachePolicy', 'ReadAhead')
+('ReadCachePolicy@Redfish.AllowableValues',
+ ['ReadAhead', 'AdaptiveReadAhead', 'Off'])
+('Status', {'Health': None, 'HealthRollup': None, 'State': 'Enabled'})
+('VolumeType', 'NonRedundant')
+('WriteCachePolicy', 'ProtectedWriteBack')
+('WriteCachePolicy@Redfish.AllowableValues',
+ ['WriteThrough', 'ProtectedWriteBack', 'UnprotectedWriteBack'])
+
+
+
+- WARNING, no volume(s) detected for controller RAID.SL.7-1
+
+
+- WARNING, no volume(s) detected for controller AHCI.Embedded.1-1
+
+
+- WARNING, no volume(s) detected for controller AHCI.Embedded.2-1
+

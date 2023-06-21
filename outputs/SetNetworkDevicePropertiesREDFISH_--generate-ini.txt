@@ -1,0 +1,7 @@
+
+- INFO, "set_network_properties.ini" file created. This file contains payload dictionary which will be used to set network properties.
+
+Modify the payload dictionary passing in property names and values for the correct group.
+
+Example of modified dictionary: {"iSCSIBoot":{"InitiatorIPAddress":"192.168.0.120","InitiatorNetmask":"255.255.255.0"},"FibreChannel":{"FCoELocalVLANId":100}}
+

@@ -1,0 +1,6 @@
+
+- PASS: status code 200 returned, flag set to reset BIOS to default settings
+- INFO, rebooting server now to reset BIOS to default settings
+
+- INFO, Current server power state is: Off
+- PASS, Command passed to power ON server, code return is 204

@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/configparser.py", line 862, in items
+    d.update(self._sections[section])
+             ~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'Parameters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspaces/Dell/Redfish Python/scripts/GetNetworkDevicePropertiesCsvFileREDFISH.py", line 100, in <module>
+    config_ini_settings = config.items("Parameters")
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/configparser.py", line 865, in items
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'Parameters'

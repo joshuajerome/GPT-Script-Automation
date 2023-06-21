@@ -1,0 +1,9 @@
+
+- INFO, current system board inlet temp readings 
+
+('UpperCritical', {'Reading': 47})
+('UpperCaution', {'Reading': 43})
+('LowerCaution', {'Reading': 3})
+('LowerCritical', {'Reading': -7})
+('UpperCautionUser', {'Reading': 43})
+('LowerCautionUser', {'Reading': 3})

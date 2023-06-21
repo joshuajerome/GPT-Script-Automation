@@ -1,0 +1,1 @@
+- INFO, unable to locate file nic_attribute_registry.txt, skipping step to delete file

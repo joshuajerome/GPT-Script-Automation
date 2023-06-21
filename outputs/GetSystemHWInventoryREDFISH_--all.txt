@@ -1,0 +1,2415 @@
+
+---- System Information ----
+
+AssetTag: 
+BiosVersion: 1.3.2
+HostName: SUT3
+Manufacturer: Dell Inc.
+Model: PowerEdge R760
+BIOSReleaseDate: 03/28/2023
+BaseBoardChassisSlot: NA
+BatteryRollupStatus: None
+BladeGeometry: NotApplicable
+CMCIP: None
+CMCRollupStatus: None
+CPURollupStatus: None
+ChassisModel: None
+ChassisName: Main System Chassis
+ChassisServiceTag: CP00521
+ChassisSystemHeightUnit: 2
+CoolingRollupStatus: Error
+CurrentRollupStatus: None
+EstimatedExhaustTemperatureCelsius: 255
+EstimatedSystemAirflowCFM: 255
+ExpressServiceCode: 27633048985
+FanRollupStatus: Error
+Id: System.Embedded.1
+IDSDMRedundancyStatus: Other
+IDSDMRollupStatus: None
+IntrusionRollupStatus: None
+IsOEMBranded: False
+LastSystemInventoryTime: 2023-06-19T20:38:04+00:00
+LastUpdateTime: 2023-06-02T02:14:38+00:00
+LicensingRollupStatus: OK
+ManagedSystemSize: 2 U
+MaxCPUSockets: 2
+MaxDIMMSlots: 32
+MaxPCIeSlots: 8
+MaxSystemMemoryMiB: 12582912
+MemoryOperationMode: OptimizerMode
+Name: DellSystem
+NodeID: CP00521
+PSRollupStatus: None
+PlatformGUID: 3132354f-c0c3-3080-3010-00504c4c4544
+PopulatedDIMMSlots: 1
+PopulatedPCIeSlots: 0
+PowerCapEnabledState: Disabled
+SDCardRollupStatus: None
+SELRollupStatus: OK
+ServerAllocationWatts: None
+StorageRollupStatus: OK
+SysMemErrorMethodology: Multi-bitECC
+SysMemFailOverState: NotInUse
+SysMemLocation: SystemBoardOrMotherboard
+SysMemPrimaryStatus: OK
+SystemGeneration: 16G Monolithic
+SystemHealthRollupStatus: Error
+SystemID: 2667
+SystemRevision: I
+TempRollupStatus: None
+TempStatisticsRollupStatus: None
+UUID: 4c4c4544-0050-3010-8030-c3c04f353231
+VoltRollupStatus: None
+smbiosGUID: 44454c4c-5000-1030-8030-c3c04f353231
+@odata.context: /redfish/v1/$metadata#DellSystem.DellSystem
+@odata.type: #DellSystem.v1_4_0.DellSystem
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellSystem/System.Embedded.1
+SKU: CP00521
+SerialNumber: CNIVC002730112
+Status: {'Health': 'Critical', 'HealthRollup': 'Critical', 'State': 'Enabled'}
+
+---- Memory Information ----
+
+- Memory details for DIMM.Socket.A1 -
+
+@odata.context: /redfish/v1/$metadata#Memory.Memory
+@odata.type: #Memory.v1_17_0.Memory
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1
+AllowedSpeedsMHz: [4800]
+AllowedSpeedsMHz@odata.count: 1
+Assembly: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1/Assembly'}
+BaseModuleType: RDIMM
+BusWidthBits: 80
+CacheSizeMiB: 0
+CapacityMiB: 16384
+DataWidthBits: 64
+Description: DIMM A1
+DeviceLocator: DIMM A1
+Enabled: True
+ErrorCorrection: MultiBitECC
+FirmwareRevision: None
+Id: DIMM.Socket.A1
+Links: {'Chassis': {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}, 'Oem': {'Dell': {'@odata.type': '#DellOem.v1_3_0.DellOemLinks', 'CPUAffinity': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'CPUAffinity@odata.count': 1}}, 'Processors': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Processors@odata.count': 1}
+LogicalSizeMiB: 0
+Manufacturer: Micron Technology
+MaxTDPMilliWatts: []
+MaxTDPMilliWatts@odata.count: 0
+MemoryDeviceType: DDR5
+MemorySubsystemControllerManufacturerID: None
+MemorySubsystemControllerProductID: None
+MemoryType: DRAM
+Metrics: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1/MemoryMetrics'}
+ModuleManufacturerID: 0x2c00
+ModuleProductID: None
+Name: DIMM A1
+NonVolatileSizeMiB: 0
+BankLabel: A
+Id: DIMM.Socket.A1
+LastSystemInventoryTime: 2023-06-19T20:38:04+00:00
+LastUpdateTime: 2023-06-02T02:14:38+00:00
+ManufactureDate: Mon Dec 13 06:00:00 2021 UTC
+MemoryTechnology: DRAM
+Model: DDR5 DIMM
+Name: DellMemory
+RemainingRatedWriteEndurancePercent: None
+SystemEraseCapability: NotSupported
+@odata.context: /redfish/v1/$metadata#DellMemory.DellMemory
+@odata.type: #DellMemory.v1_1_0.DellMemory
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1/Oem/Dell/DellMemory/DIMM.Socket.A1
+OperatingMemoryModes: ['Volatile']
+OperatingMemoryModes@odata.count: 1
+OperatingSpeedMhz: 4800
+PartNumber: MTC10F1084S1RC48BA1
+RankCount: 1
+SerialNumber: 336DE2C5
+Status: {'Health': 'OK', 'State': 'Enabled'}
+VolatileSizeMiB: 16384
+
+---- Processor Information ----
+
+- Processor details for CPU.Socket.1 -
+
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1
+@odata.type: #Processor.v1_17_0.Processor
+@odata.context: /redfish/v1/$metadata#Processor.Processor
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+Description: Represents the properties of a Processor attached to this System
+Enabled: True
+Id: CPU.Socket.1
+InstructionSet: x86-64
+Links: {'Chassis': {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}, 'Memory': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A1'}], 'Memory@odata.count': 1}
+Manufacturer: Intel
+MaxSpeedMHz: 4000
+MemorySummary: {'TotalCacheSizeMiB': 142, 'TotalMemorySizeMiB': 16384}
+Model: Intel(R) Xeon(R) Platinum 8452Y
+Name: CPU 1
+CPUFamily: Intel(R)Xeon(TM)
+CPUStatus: CPUEnabled
+Cache1Associativity: 12-WaySet-Associative
+Cache1ErrorMethodology: Parity
+Cache1InstalledSizeKB: 2880
+Cache1Level: L1
+Cache1Location: Internal
+Cache1PrimaryStatus: OK
+Cache1SRAMType: Unknown
+Cache1SizeKB: 2880
+Cache1Type: Unified
+Cache1WritePolicy: WriteBack
+Cache2Associativity: 16-WaySet-Associative
+Cache2ErrorMethodology: Single-bitECC
+Cache2InstalledSizeKB: 73728
+Cache2Level: L2
+Cache2Location: Internal
+Cache2PrimaryStatus: OK
+Cache2SRAMType: Unknown
+Cache2SizeKB: 73728
+Cache2Type: Unified
+Cache2WritePolicy: WriteBack
+Cache3Associativity: FullyAssociative
+Cache3ErrorMethodology: Single-bitECC
+Cache3InstalledSizeKB: 69120
+Cache3Level: L3
+Cache3Location: Internal
+Cache3PrimaryStatus: OK
+Cache3SRAMType: Unknown
+Cache3SizeKB: 69120
+Cache3Type: Unified
+Cache3WritePolicy: WriteBack
+CurrentClockSpeedMhz: 2000
+ExecuteDisabledCapable: Yes
+ExecuteDisabledEnabled: Yes
+ExternalBusClockSpeedMhz: 0
+HyperThreadingCapable: Yes
+HyperThreadingEnabled: Yes
+Id: CPU.Socket.1
+LastSystemInventoryTime: 2023-06-19T20:38:04+00:00
+LastUpdateTime: 2023-06-02T02:14:38+00:00
+Name: DellProcessor
+TurboModeCapable: Yes
+TurboModeEnabled: Yes
+VirtualizationTechnologyCapable: Yes
+VirtualizationTechnologyEnabled: Yes
+Volts: 1.6
+@odata.context: /redfish/v1/$metadata#DellProcessor.DellProcessor
+@odata.type: #DellProcessor.v1_2_0.DellProcessor
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1/Oem/Dell/DellProcessors/CPU.Socket.1
+OperatingSpeedMHz: 2000
+ProcessorArchitecture: x86
+ProcessorId: {'EffectiveFamily': '6', 'EffectiveModel': '143', 'IdentificationRegisters': '0x000806F6', 'MicrocodeInfo': '0x0', 'ProtectedIdentificationNumber': '1A11B61F2F5A996D', 'Step': '6', 'VendorId': 'GenuineIntel'}
+ProcessorType: CPU
+Socket: CPU.Socket.1
+Status: {'Health': 'OK', 'State': 'Enabled'}
+TotalCores: 36
+TotalEnabledCores: 36
+TotalThreads: 72
+TurboState: Enabled
+Version: Model 143 Stepping 6
+
+---- Fan Information ----
+
+
+- Details for System Board Fan1A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/0
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan1A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 0
+MinReadingRange: None
+Name: System Board Fan1A
+PhysicalContext: SystemBoard
+Reading: 24480
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 56
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan1A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/1
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan1A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 1
+MinReadingRange: None
+Name: System Board Fan1A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 56
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan1A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/2
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan1A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 2
+MinReadingRange: None
+Name: System Board Fan1A
+PhysicalContext: SystemBoard
+Reading: 24480
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 56
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan1A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/3
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan1A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 3
+MinReadingRange: None
+Name: System Board Fan1A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 56
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan1A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/4
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan1A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 4
+MinReadingRange: None
+Name: System Board Fan1A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 56
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan1B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/5
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan1B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 5
+MinReadingRange: None
+Name: System Board Fan1B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 62
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan1B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/6
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan1B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 6
+MinReadingRange: None
+Name: System Board Fan1B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 62
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan1B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/7
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan1B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 7
+MinReadingRange: None
+Name: System Board Fan1B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 62
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan1B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/8
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan1B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 8
+MinReadingRange: None
+Name: System Board Fan1B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 62
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan2A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/9
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan2A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 9
+MinReadingRange: None
+Name: System Board Fan2A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 57
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan2A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/10
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan2A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 10
+MinReadingRange: None
+Name: System Board Fan2A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 57
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan2A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/11
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan2A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 11
+MinReadingRange: None
+Name: System Board Fan2A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 57
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan2A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/12
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan2A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 12
+MinReadingRange: None
+Name: System Board Fan2A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 57
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan2A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/13
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan2A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 13
+MinReadingRange: None
+Name: System Board Fan2A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 57
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan2B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/14
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan2B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 14
+MinReadingRange: None
+Name: System Board Fan2B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 63
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan2B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/15
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan2B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 15
+MinReadingRange: None
+Name: System Board Fan2B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 63
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan2B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/16
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan2B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 16
+MinReadingRange: None
+Name: System Board Fan2B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 63
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan2B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/17
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan2B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 17
+MinReadingRange: None
+Name: System Board Fan2B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 63
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan3A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/18
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan3A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 18
+MinReadingRange: None
+Name: System Board Fan3A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 58
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan3A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/19
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan3A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 19
+MinReadingRange: None
+Name: System Board Fan3A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 58
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan3A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/20
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan3A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 20
+MinReadingRange: None
+Name: System Board Fan3A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 58
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan3A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/21
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan3A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 21
+MinReadingRange: None
+Name: System Board Fan3A
+PhysicalContext: SystemBoard
+Reading: 24840
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 58
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan3A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/22
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan3A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 22
+MinReadingRange: None
+Name: System Board Fan3A
+PhysicalContext: SystemBoard
+Reading: 24840
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 58
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan3B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/23
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan3B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 23
+MinReadingRange: None
+Name: System Board Fan3B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 64
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan3B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/24
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan3B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 24
+MinReadingRange: None
+Name: System Board Fan3B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 64
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan3B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/25
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan3B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 25
+MinReadingRange: None
+Name: System Board Fan3B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 64
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan3B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/26
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan3B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 26
+MinReadingRange: None
+Name: System Board Fan3B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 64
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan4A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/27
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan4A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 27
+MinReadingRange: None
+Name: System Board Fan4A
+PhysicalContext: SystemBoard
+Reading: 24240
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 59
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan4A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/28
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan4A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 28
+MinReadingRange: None
+Name: System Board Fan4A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 59
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan4A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/29
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan4A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 29
+MinReadingRange: None
+Name: System Board Fan4A
+PhysicalContext: SystemBoard
+Reading: 24240
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 59
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan4A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/30
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan4A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 30
+MinReadingRange: None
+Name: System Board Fan4A
+PhysicalContext: SystemBoard
+Reading: 24480
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 59
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan4A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/31
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan4A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 31
+MinReadingRange: None
+Name: System Board Fan4A
+PhysicalContext: SystemBoard
+Reading: 24480
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 59
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan4B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/32
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan4B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 32
+MinReadingRange: None
+Name: System Board Fan4B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 65
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan4B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/33
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan4B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 33
+MinReadingRange: None
+Name: System Board Fan4B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 65
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan4B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/34
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan4B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 34
+MinReadingRange: None
+Name: System Board Fan4B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 65
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan4B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/35
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan4B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 35
+MinReadingRange: None
+Name: System Board Fan4B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 65
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan5A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/36
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan5A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 36
+MinReadingRange: None
+Name: System Board Fan5A
+PhysicalContext: SystemBoard
+Reading: 0
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 60
+Status: {'Health': 'Critical', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan5A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/37
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan5A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 37
+MinReadingRange: None
+Name: System Board Fan5A
+PhysicalContext: SystemBoard
+Reading: 0
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 60
+Status: {'Health': 'Critical', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan5A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/38
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan5A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 38
+MinReadingRange: None
+Name: System Board Fan5A
+PhysicalContext: SystemBoard
+Reading: 0
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 60
+Status: {'Health': 'Critical', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan5A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/39
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan5A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 39
+MinReadingRange: None
+Name: System Board Fan5A
+PhysicalContext: SystemBoard
+Reading: 0
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 60
+Status: {'Health': 'Critical', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan5A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/40
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan5A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 40
+MinReadingRange: None
+Name: System Board Fan5A
+PhysicalContext: SystemBoard
+Reading: 0
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 60
+Status: {'Health': 'Critical', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan5B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/41
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan5B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 41
+MinReadingRange: None
+Name: System Board Fan5B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 66
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan5B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/42
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan5B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 42
+MinReadingRange: None
+Name: System Board Fan5B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 66
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan5B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/43
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan5B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 43
+MinReadingRange: None
+Name: System Board Fan5B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 66
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan5B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/44
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan5B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 44
+MinReadingRange: None
+Name: System Board Fan5B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 66
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan6A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/45
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan6A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 45
+MinReadingRange: None
+Name: System Board Fan6A
+PhysicalContext: SystemBoard
+Reading: 24480
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 61
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan6A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/46
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan6A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 46
+MinReadingRange: None
+Name: System Board Fan6A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 61
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan6A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/47
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan6A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 47
+MinReadingRange: None
+Name: System Board Fan6A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 61
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan6A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/48
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan6A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 48
+MinReadingRange: None
+Name: System Board Fan6A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 61
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan6A -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/49
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan6A
+HotPluggable: True
+LowerThresholdCritical: 480
+LowerThresholdFatal: None
+LowerThresholdNonCritical: 840
+MaxReadingRange: None
+MemberId: 49
+MinReadingRange: None
+Name: System Board Fan6A
+PhysicalContext: SystemBoard
+Reading: 24720
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 61
+Status: {'Health': 'OK', 'State': 'Enabled'}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan6B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/50
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan6B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 50
+MinReadingRange: None
+Name: System Board Fan6B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 67
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan6B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/51
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan6B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 51
+MinReadingRange: None
+Name: System Board Fan6B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 67
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan6B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/52
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan6B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 52
+MinReadingRange: None
+Name: System Board Fan6B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 67
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan6B -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/53
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan6B
+HotPluggable: True
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 53
+MinReadingRange: None
+Name: System Board Fan6B
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 67
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan7 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/54
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan7
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 54
+MinReadingRange: None
+Name: System Board Fan7
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 68
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan7 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/55
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan7
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 55
+MinReadingRange: None
+Name: System Board Fan7
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 68
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan7 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/56
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan7
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 56
+MinReadingRange: None
+Name: System Board Fan7
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 68
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan7 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/57
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan7
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 57
+MinReadingRange: None
+Name: System Board Fan7
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 68
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan8 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/58
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan8
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 58
+MinReadingRange: None
+Name: System Board Fan8
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 69
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan8 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/59
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan8
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 59
+MinReadingRange: None
+Name: System Board Fan8
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 69
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan8 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/60
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan8
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 60
+MinReadingRange: None
+Name: System Board Fan8
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 69
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan8 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/61
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan8
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 61
+MinReadingRange: None
+Name: System Board Fan8
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 69
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan9 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/62
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan9
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 62
+MinReadingRange: None
+Name: System Board Fan9
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 70
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan9 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/63
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan9
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 63
+MinReadingRange: None
+Name: System Board Fan9
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 70
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan9 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/64
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan9
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 64
+MinReadingRange: None
+Name: System Board Fan9
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 70
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+- Details for System Board Fan9 -
+
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Thermal#/Fans/65
+@odata.type: #Thermal.v1_7_1.Fan
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+FanName: System Board Fan9
+HotPluggable: False
+LowerThresholdCritical: None
+LowerThresholdFatal: None
+LowerThresholdNonCritical: None
+MaxReadingRange: None
+MemberId: 65
+MinReadingRange: None
+Name: System Board Fan9
+PhysicalContext: SystemBoard
+Reading: -2147483648
+ReadingUnits: RPM
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+RelatedItem@odata.count: 1
+SensorNumber: 70
+Status: {'Health': None, 'State': None}
+UpperThresholdCritical: None
+UpperThresholdFatal: None
+UpperThresholdNonCritical: None
+
+---- Power Supply Information ----
+
+
+- Details for PS2 Status -
+
+@odata.context: /redfish/v1/$metadata#Power.Power
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Power
+@odata.type: #Power.v1_7_1.Power
+Name: Power
+Id: Power
+Description: Power
+@odata.context: /redfish/v1/$metadata#Power.Power
+@odata.type: #Power.v1_7_1.PowerControl
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Power#/PowerControl/0
+Name: System Power Control
+MemberId: 0
+PowerAllocatedWatts: 1522
+PowerAvailableWatts: 0
+PowerCapacityWatts: 1960.0
+PowerConsumedWatts: 401
+PowerLimit: {'CorrectionInMs': 0, 'LimitException': 'HardPowerOff', 'LimitInWatts': 707}
+PowerMetrics: {'AverageConsumedWatts': 401, 'IntervalInMin': 1, 'MaxConsumedWatts': 404, 'MinConsumedWatts': 400}
+PowerRequestedWatts: 792.311889648438
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}, {'@odata.id': '/redfish/v1/Systems/System.Embedded.1'}]
+@odata.context: /redfish/v1/$metadata#Power.Power
+@odata.type: #Power.v1_7_1.PowerControl
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Power#/PowerControl/0
+Name: System Power Control
+MemberId: 0
+PowerAllocatedWatts: 1518
+PowerAvailableWatts: 0
+PowerCapacityWatts: 1960.0
+PowerConsumedWatts: 401
+PowerLimit: {'CorrectionInMs': 0, 'LimitException': 'HardPowerOff', 'LimitInWatts': 707}
+PowerMetrics: {'AverageConsumedWatts': 401, 'IntervalInMin': 1, 'MaxConsumedWatts': 404, 'MinConsumedWatts': 400}
+PowerRequestedWatts: 792.311889648438
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}, {'@odata.id': '/redfish/v1/Systems/System.Embedded.1'}]
+PowerControl@odata.count: 2
+@odata.context: /redfish/v1/$metadata#Power.Power
+@odata.type: #Power.v1_7_1.PowerSupply
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/0
+Name: PS2 Status
+MemberId: 0
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power/PowerSupplies/PSU.Slot.2/Assembly'}
+FirmwareVersion: 00.18.31
+InputRanges: [{'InputType': 'AC', 'MaximumFrequencyHz': 35, 'MaximumVoltage': 14, 'MinimumFrequencyHz': 40, 'MinimumVoltage': 132, 'OutputWattage': 1400}]
+EfficiencyPercent: 92.0000016689301
+HotPluggable: True
+PowerOutputWatts: 355.5
+PowerInputWatts: 402.5
+LastPowerOutputWatts: 355.5
+LineInputVoltage: 208
+LineInputVoltageType: AC240V
+Manufacturer: 
+Model: 
+PartNumber: 01CW9GA03
+PowerCapacityWatts: 1400
+PowerSupplyType: AC
+SerialNumber: 
+SparePartNumber: 01CW9GA03
+Redundancy: []
+Redundancy@odata.count: 0
+RelatedItem: [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}]
+Status: {'Health': 'OK', 'State': 'Enabled'}
+ActiveInputVoltage: Unknown
+ActiveInputVoltage@Redfish.Deprecated: Please migrate to use InputNominalVoltageType under DMTF PowerSupply
+Id: PSU.Slot.2
+IsSwitchingSupply: True
+OperationalStatus: ['OK']
+OperationalStatus@odata.count: 1
+RequestedState: NotApplicable
+Links: {'DellPSNumericSensorCollection': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Oem/Dell/DellPSNumericSensors/iDRAC.Embedded.1_0x23_PS2Current2'}], 'DellPSNumericSensorCollection@odata.count': 1}
+Name: DellPowerSupply
+@odata.context: /redfish/v1/$metadata#DellPowerSupply.DellPowerSupply
+@odata.type: #DellPowerSupply.v1_1_1.DellPowerSupply
+@odata.id: /redfish/v1/Chassis/System.Embedded.1/Power/Oem/Dell/DellPowerSupply/PSU.Slot.2
+PowerSupplies@odata.count: 1
+Redundancy: []
+Redundancy@odata.count: 0
+Voltages: [{'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/0', 'Name': 'CPU1 VCCIN VR', 'MemberId': '0', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'CPU', 'ReadingVolts': 1.81, 'SensorNumber': 50, 'RelatedItem': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/1', 'Name': 'CPU1 VCCFA VR', 'MemberId': '1', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'CPU', 'ReadingVolts': 1.01, 'SensorNumber': 51, 'RelatedItem': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/2', 'Name': 'CPU1 VCCD VR', 'MemberId': '2', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'CPU', 'ReadingVolts': 1.14, 'SensorNumber': 52, 'RelatedItem': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/3', 'Name': 'PS2 Voltage 2', 'MemberId': '3', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'PowerSupply', 'ReadingVolts': 208.0, 'SensorNumber': 110, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/4', 'Name': 'CPU1 VCCIN PG', 'MemberId': '4', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'CPU', 'ReadingVolts': None, 'SensorNumber': 10, 'RelatedItem': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/5', 'Name': 'System Board BP0 PG', 'MemberId': '5', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 12, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/6', 'Name': 'System Board BP1 PG', 'MemberId': '6', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 13, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/7', 'Name': 'System Board BP2 PG', 'MemberId': '7', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 14, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/8', 'Name': 'System Board 1V05 SW PG', 'MemberId': '8', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 15, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/9', 'Name': 'System Board 3.3V A PG', 'MemberId': '9', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 16, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/10', 'Name': 'System Board 5V SW PG', 'MemberId': '10', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 17, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/11', 'Name': 'System Board BMC SW PG', 'MemberId': '11', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 18, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/12', 'Name': 'System Board OCP1 PG', 'MemberId': '12', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 19, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/13', 'Name': 'CPU1 VCCD PG', 'MemberId': '13', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'CPU', 'ReadingVolts': None, 'SensorNumber': 24, 'RelatedItem': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/14', 'Name': 'CPU1 HBM VPP PG', 'MemberId': '14', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'CPU', 'ReadingVolts': None, 'SensorNumber': 25, 'RelatedItem': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/15', 'Name': 'CPU1 VCCFA PG', 'MemberId': '15', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'CPU', 'ReadingVolts': None, 'SensorNumber': 26, 'RelatedItem': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/16', 'Name': 'CPU1 FIVRA PG', 'MemberId': '16', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'CPU', 'ReadingVolts': None, 'SensorNumber': 27, 'RelatedItem': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/17', 'Name': 'CPU1 INFAON PG', 'MemberId': '17', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'CPU', 'ReadingVolts': None, 'SensorNumber': 28, 'RelatedItem': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/18', 'Name': 'CPU1 PVNN PG', 'MemberId': '18', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'CPU', 'ReadingVolts': None, 'SensorNumber': 29, 'RelatedItem': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/19', 'Name': 'System Board PUCK COMBINED PG', 'MemberId': '19', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 40, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/20', 'Name': 'System Board PS1 PG FAIL', 'MemberId': '20', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 8, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/21', 'Name': 'System Board PS2 PG FAIL', 'MemberId': '21', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 9, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/22', 'Name': 'System Board Pfault Fail Safe', 'MemberId': '22', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'SystemBoard', 'ReadingVolts': None, 'SensorNumber': 116, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/23', 'Name': 'PS1 Voltage 1', 'MemberId': '23', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'PowerSupply', 'ReadingVolts': None, 'SensorNumber': 109, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/0'}], 'Status': {'Health': None, 'State': None}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/24', 'Name': 'PS1 Voltage 1', 'MemberId': '24', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'PowerSupply', 'ReadingVolts': 4294711.296, 'SensorNumber': 109, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/0'}], 'Status': {'Health': 'OK', 'State': 'Enabled'}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}, {'@odata.context': '/redfish/v1/$metadata#Power.Power', '@odata.type': '#Power.v1_7_1.Voltage', '@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/Voltages/25', 'Name': 'PS2 Voltage 2', 'MemberId': '25', 'LowerThresholdCritical': None, 'LowerThresholdFatal': None, 'LowerThresholdNonCritical': None, 'PhysicalContext': 'PowerSupply', 'ReadingVolts': None, 'SensorNumber': 110, 'RelatedItem': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Power#/PowerSupplies/1'}], 'Status': {'Health': None, 'State': None}, 'UpperThresholdCritical': None, 'UpperThresholdFatal': None, 'UpperThresholdNonCritical': None}]
+Voltages@odata.count: 26
+
+
+
+---- Controller Information ----
+
+ - Detailed controller information for RAID.SL.7-1 -
+
+@odata.context: /redfish/v1/$metadata#Storage.Storage
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.7-1
+@odata.type: #Storage.v1_14_0.Storage
+Controllers: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.7-1/Controllers'}
+Description: RAID Controller in SL 7
+Drives: []
+Drives@odata.count: 0
+Id: RAID.SL.7-1
+Identifiers: [{'DurableName': '54cd98f0caefd700', 'DurableNameFormat': 'NAA'}]
+Identifiers@odata.count: 1
+Links: {'Enclosures': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Enclosures@odata.count': 1, 'Oem': {'Dell': {'@odata.type': '#DellOem.v1_3_0.DellOemLinks', 'CPUAffinity': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'CPUAffinity@odata.count': 1}}, 'SimpleStorage': {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/SimpleStorage/RAID.SL.7-1'}}
+Name: PERC H755N Front
+@odata.context: /redfish/v1/$metadata#DellController.DellController
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.7-1/Oem/Dell/DellControllers/RAID.SL.7-1
+@odata.type: #DellController.v1_4_1.DellController
+AlarmState: AlarmNotPresent
+AutoConfigBehavior: Off
+BootVirtualDiskFQDD: None
+CacheSizeInMB: 8192
+CachecadeCapability: NotSupported
+ConnectorCount: 4
+ControllerFirmwareVersion: 52.13.0-3088
+CurrentControllerMode: RAID
+Description: An instance of DellController will have RAID Controller specific data.
+Device: 0
+DeviceCardDataBusWidth: Unknown
+DeviceCardSlotLength: Unknown
+DeviceCardSlotType: Unknown
+DriverVersion: 7.724.03.00
+EncryptionCapability: LocalKeyManagementAndSecureEnterpriseKeyManagerCapable
+EncryptionMode: None
+Id: RAID.SL.7-1
+KeyID: None
+LastSystemInventoryTime: 2023-06-19T20:38:04+00:00
+LastUpdateTime: 2023-06-19T21:38:03+00:00
+MaxAvailablePCILinkSpeed: None
+MaxPossiblePCILinkSpeed: None
+Name: DellController
+PCISlot: None
+PatrolReadState: Stopped
+PersistentHotspare: Disabled
+RealtimeCapability: Incapable
+RollupStatus: Unknown
+SASAddress: 54CD98F0CAEFD700
+SecurityStatus: EncryptionCapable
+SharedSlotAssignmentAllowed: NotApplicable
+SlicedVDCapability: Supported
+SupportControllerBootMode: NotSupported
+SupportEnhancedAutoForeignImport: Supported
+SupportRAID10UnevenSpans: Supported
+SupportsLKMtoSEKMTransition: No
+T10PICapability: NotSupported
+Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.7-1#/StorageControllers/0
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+CacheSummary: {'TotalCacheSizeMiB': 8192}
+ControllerRates: {'ConsistencyCheckRatePercent': 30, 'RebuildRatePercent': 30}
+FirmwareVersion: 52.13.0-3088
+Identifiers: [{'DurableName': '54cd98f0caefd700', 'DurableNameFormat': 'NAA'}]
+Identifiers@odata.count: 1
+Links: {'PCIeFunctions': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/190-0/PCIeFunctions/190-0-0'}], 'PCIeFunctions@odata.count': 1}
+Manufacturer: DELL
+MemberId: 0
+Model: PERC H755N Front
+Name: PERC H755N Front
+SpeedGbps: 12.0
+Health: None
+HealthRollup: None
+State: Enabled
+SupportedControllerProtocols: ['PCIe']
+SupportedControllerProtocols@odata.count: 1
+SupportedDeviceProtocols: ['SAS', 'SATA', 'NVMe']
+SupportedDeviceProtocols@odata.count: 3
+SupportedRAIDTypes: ['RAID0', 'RAID1', 'RAID5', 'RAID6', 'RAID10', 'RAID50', 'RAID60']
+SupportedRAIDTypes@odata.count: 7
+StorageControllers@Redfish.Deprecated: Please migrate to use /redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.7-1/Controllers
+StorageControllers@odata.count: 1
+Volumes: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.7-1/Volumes'}
+
+ - Detailed controller information for RAID.SL.3-1 -
+
+@odata.context: /redfish/v1/$metadata#Storage.Storage
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1
+@odata.type: #Storage.v1_14_0.Storage
+Controllers: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Controllers'}
+Description: RAID Controller in SL 3
+Drives: []
+Drives@odata.count: 0
+Id: RAID.SL.3-1
+Identifiers: [{'DurableName': '5f4ee0802eba9400', 'DurableNameFormat': 'NAA'}]
+Identifiers@odata.count: 1
+Links: {'Enclosures': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Enclosures@odata.count': 1, 'Oem': {'Dell': {'@odata.type': '#DellOem.v1_3_0.DellOemLinks', 'CPUAffinity': [{'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1'}], 'CPUAffinity@odata.count': 1}}, 'SimpleStorage': {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/SimpleStorage/RAID.SL.3-1'}}
+Name: PERC H755 Front
+@odata.context: /redfish/v1/$metadata#DellController.DellController
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Oem/Dell/DellControllers/RAID.SL.3-1
+@odata.type: #DellController.v1_4_1.DellController
+AlarmState: AlarmNotPresent
+AutoConfigBehavior: Off
+BootVirtualDiskFQDD: None
+CacheSizeInMB: 8192
+CachecadeCapability: NotSupported
+ConnectorCount: 4
+ControllerFirmwareVersion: 52.21.0-4606
+CurrentControllerMode: RAID
+Description: An instance of DellController will have RAID Controller specific data.
+Device: 0
+DeviceCardDataBusWidth: Unknown
+DeviceCardSlotLength: Unknown
+DeviceCardSlotType: Unknown
+DriverVersion: 7.724.03.00
+EncryptionCapability: LocalKeyManagementAndSecureEnterpriseKeyManagerCapable
+EncryptionMode: None
+Id: RAID.SL.3-1
+KeyID: None
+LastSystemInventoryTime: 2023-06-19T20:38:04+00:00
+LastUpdateTime: 2023-06-19T21:38:03+00:00
+MaxAvailablePCILinkSpeed: None
+MaxPossiblePCILinkSpeed: None
+Name: DellController
+PCISlot: None
+PatrolReadState: Stopped
+PersistentHotspare: Disabled
+RealtimeCapability: Incapable
+RollupStatus: Unknown
+SASAddress: 5F4EE0802EBA9400
+SecurityStatus: EncryptionCapable
+SharedSlotAssignmentAllowed: NotApplicable
+SlicedVDCapability: Supported
+SupportControllerBootMode: NotSupported
+SupportEnhancedAutoForeignImport: Supported
+SupportRAID10UnevenSpans: Supported
+SupportsLKMtoSEKMTransition: Yes
+T10PICapability: NotSupported
+Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1#/StorageControllers/0
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+CacheSummary: {'TotalCacheSizeMiB': 8192}
+ControllerRates: {'ConsistencyCheckRatePercent': 30, 'RebuildRatePercent': 30}
+FirmwareVersion: 52.21.0-4606
+Identifiers: [{'DurableName': '5f4ee0802eba9400', 'DurableNameFormat': 'NAA'}]
+Identifiers@odata.count: 1
+Links: {'PCIeFunctions': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/148-0/PCIeFunctions/148-0-0'}], 'PCIeFunctions@odata.count': 1}
+Manufacturer: DELL
+MemberId: 0
+Model: PERC H755 Front
+Name: PERC H755 Front
+SpeedGbps: 12.0
+Health: None
+HealthRollup: None
+State: Enabled
+SupportedControllerProtocols: ['PCIe']
+SupportedControllerProtocols@odata.count: 1
+SupportedDeviceProtocols: ['SAS', 'SATA']
+SupportedDeviceProtocols@odata.count: 2
+SupportedRAIDTypes: ['RAID0', 'RAID1', 'RAID5', 'RAID6', 'RAID10', 'RAID50', 'RAID60']
+SupportedRAIDTypes@odata.count: 7
+StorageControllers@Redfish.Deprecated: Please migrate to use /redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Controllers
+StorageControllers@odata.count: 1
+Volumes: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Volumes'}
+
+ - Detailed controller information for AHCI.Embedded.1-1 -
+
+@odata.context: /redfish/v1/$metadata#Storage.Storage
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.1-1
+@odata.type: #Storage.v1_14_0.Storage
+Controllers: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.1-1/Controllers'}
+Description: Embedded AHCI 1
+Drives: []
+Drives@odata.count: 0
+Id: AHCI.Embedded.1-1
+Identifiers: [{'DurableName': None, 'DurableNameFormat': None}]
+Identifiers@odata.count: 1
+Links: {'Enclosures': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Enclosures@odata.count': 1, 'Oem': {'Dell': {'@odata.type': '#DellOem.v1_3_0.DellOemLinks', 'CPUAffinity': [], 'CPUAffinity@odata.count': 0}}, 'SimpleStorage': {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/SimpleStorage/AHCI.Embedded.1-1'}}
+Name: Sapphire Rapids SATA AHCI Controller
+@odata.context: /redfish/v1/$metadata#DellController.DellController
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.1-1/Oem/Dell/DellControllers/AHCI.Embedded.1-1
+@odata.type: #DellController.v1_4_1.DellController
+AlarmState: AlarmNotPresent
+AutoConfigBehavior: NotApplicable
+BootVirtualDiskFQDD: None
+CacheSizeInMB: 0
+CachecadeCapability: NotSupported
+ConnectorCount: 0
+ControllerFirmwareVersion: None
+CurrentControllerMode: NotSupported
+Description: An instance of DellController will have RAID Controller specific data.
+Device: 0
+DeviceCardDataBusWidth: Unknown
+DeviceCardSlotLength: Unknown
+DeviceCardSlotType: Unknown
+DriverVersion: None
+EncryptionCapability: None
+EncryptionMode: None
+Id: AHCI.Embedded.1-1
+KeyID: None
+LastSystemInventoryTime: 2023-06-19T20:38:04+00:00
+LastUpdateTime: 2023-03-27T21:36:33+00:00
+MaxAvailablePCILinkSpeed: None
+MaxPossiblePCILinkSpeed: None
+Name: DellController
+PCISlot: None
+PatrolReadState: Unknown
+PersistentHotspare: NotApplicable
+RealtimeCapability: Incapable
+RollupStatus: Unknown
+SASAddress: 0
+SecurityStatus: EncryptionNotCapable
+SharedSlotAssignmentAllowed: NotApplicable
+SlicedVDCapability: NotSupported
+SupportControllerBootMode: NotSupported
+SupportEnhancedAutoForeignImport: NotSupported
+SupportRAID10UnevenSpans: NotSupported
+SupportsLKMtoSEKMTransition: No
+T10PICapability: NotSupported
+Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.1-1#/StorageControllers/0
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+CacheSummary: {'TotalCacheSizeMiB': 0}
+ControllerRates: {'ConsistencyCheckRatePercent': None, 'RebuildRatePercent': None}
+FirmwareVersion: 
+Identifiers: [{'DurableName': None, 'DurableNameFormat': None}]
+Identifiers@odata.count: 1
+Links: {'PCIeFunctions': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-24/PCIeFunctions/0-24-0'}], 'PCIeFunctions@odata.count': 1}
+Manufacturer: DELL
+MemberId: 0
+Model: Sapphire Rapids SATA AHCI Controller
+Name: Sapphire Rapids SATA AHCI Controller
+SpeedGbps: None
+Health: None
+HealthRollup: None
+State: Enabled
+SupportedControllerProtocols: ['PCIe']
+SupportedControllerProtocols@odata.count: 1
+SupportedDeviceProtocols: []
+SupportedDeviceProtocols@odata.count: 0
+SupportedRAIDTypes: []
+SupportedRAIDTypes@odata.count: 0
+StorageControllers@Redfish.Deprecated: Please migrate to use /redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.1-1/Controllers
+StorageControllers@odata.count: 1
+Volumes: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.1-1/Volumes'}
+
+ - Detailed controller information for AHCI.Embedded.2-1 -
+
+@odata.context: /redfish/v1/$metadata#Storage.Storage
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.2-1
+@odata.type: #Storage.v1_14_0.Storage
+Controllers: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.2-1/Controllers'}
+Description: Embedded AHCI 2
+Drives: []
+Drives@odata.count: 0
+Id: AHCI.Embedded.2-1
+Identifiers: [{'DurableName': None, 'DurableNameFormat': None}]
+Identifiers@odata.count: 1
+Links: {'Enclosures': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1'}], 'Enclosures@odata.count': 1, 'Oem': {'Dell': {'@odata.type': '#DellOem.v1_3_0.DellOemLinks', 'CPUAffinity': [], 'CPUAffinity@odata.count': 0}}, 'SimpleStorage': {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/SimpleStorage/AHCI.Embedded.2-1'}}
+Name: Sapphire Rapids SATA AHCI Controller
+@odata.context: /redfish/v1/$metadata#DellController.DellController
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.2-1/Oem/Dell/DellControllers/AHCI.Embedded.2-1
+@odata.type: #DellController.v1_4_1.DellController
+AlarmState: AlarmNotPresent
+AutoConfigBehavior: NotApplicable
+BootVirtualDiskFQDD: None
+CacheSizeInMB: 0
+CachecadeCapability: NotSupported
+ConnectorCount: 0
+ControllerFirmwareVersion: None
+CurrentControllerMode: NotSupported
+Description: An instance of DellController will have RAID Controller specific data.
+Device: 0
+DeviceCardDataBusWidth: Unknown
+DeviceCardSlotLength: Unknown
+DeviceCardSlotType: Unknown
+DriverVersion: None
+EncryptionCapability: None
+EncryptionMode: None
+Id: AHCI.Embedded.2-1
+KeyID: None
+LastSystemInventoryTime: 2023-06-19T20:38:04+00:00
+LastUpdateTime: 2023-03-27T21:36:33+00:00
+MaxAvailablePCILinkSpeed: None
+MaxPossiblePCILinkSpeed: None
+Name: DellController
+PCISlot: None
+PatrolReadState: Unknown
+PersistentHotspare: NotApplicable
+RealtimeCapability: Incapable
+RollupStatus: Unknown
+SASAddress: 0
+SecurityStatus: EncryptionNotCapable
+SharedSlotAssignmentAllowed: NotApplicable
+SlicedVDCapability: NotSupported
+SupportControllerBootMode: NotSupported
+SupportEnhancedAutoForeignImport: NotSupported
+SupportRAID10UnevenSpans: NotSupported
+SupportsLKMtoSEKMTransition: No
+T10PICapability: NotSupported
+Status: {'Health': None, 'HealthRollup': None, 'State': 'Enabled'}
+@odata.id: /redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.2-1#/StorageControllers/0
+Assembly: {'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/Assembly'}
+CacheSummary: {'TotalCacheSizeMiB': 0}
+ControllerRates: {'ConsistencyCheckRatePercent': None, 'RebuildRatePercent': None}
+FirmwareVersion: 
+Identifiers: [{'DurableName': None, 'DurableNameFormat': None}]
+Identifiers@odata.count: 1
+Links: {'PCIeFunctions': [{'@odata.id': '/redfish/v1/Chassis/System.Embedded.1/PCIeDevices/0-25/PCIeFunctions/0-25-0'}], 'PCIeFunctions@odata.count': 1}
+Manufacturer: DELL
+MemberId: 0
+Model: Sapphire Rapids SATA AHCI Controller
+Name: Sapphire Rapids SATA AHCI Controller
+SpeedGbps: None
+Health: None
+HealthRollup: None
+State: Enabled
+SupportedControllerProtocols: ['PCIe']
+SupportedControllerProtocols@odata.count: 1
+SupportedDeviceProtocols: []
+SupportedDeviceProtocols@odata.count: 0
+SupportedRAIDTypes: []
+SupportedRAIDTypes@odata.count: 0
+StorageControllers@Redfish.Deprecated: Please migrate to use /redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.2-1/Controllers
+StorageControllers@odata.count: 1
+Volumes: {'@odata.id': '/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.Embedded.2-1/Volumes'}
+
+---- Disk Information ----
+
+- WARNING, no drives detected for RAID.SL.7-1
+
+- WARNING, no drives detected for RAID.SL.3-1
+
+- WARNING, no drives detected for AHCI.Embedded.1-1
+
+- WARNING, no drives detected for AHCI.Embedded.2-1
+
+---- Backplane Information ----
+- WARNING, no backplane information detected for system
+

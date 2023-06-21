@@ -1,0 +1,5 @@
+
+- FAIL, POST command failed to get RAID levels for controller RAID.Slot.6-1
+
+- POST command failure detailed results:
+ {'error': {'@Message.ExtendedInfo': [{'Message': 'Controller not found.', 'MessageArgs': [], 'MessageArgs@odata.count': 0, 'MessageId': 'IDRAC.2.9.STOR030', 'RelatedProperties': [], 'RelatedProperties@odata.count': 0, 'Resolution': 'Provide a valid controller FQDD (Fully Qualified Device Descriptor) and retry the operation.', 'Severity': 'Warning'}], 'code': 'Base.1.12.GeneralError', 'message': 'A general error has occurred. See ExtendedInfo for more information'}}

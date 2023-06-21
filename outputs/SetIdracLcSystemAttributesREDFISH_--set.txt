@@ -1,0 +1,11 @@
+
+- INFO, configuring "IDRAC" attributes
+
+ Attribute Name: Time.1.Timezone, setting new value to: CST6CDT
+ Attribute Name: Telnet.1.Enable, setting new value to: enabled
+ Attribute Name: RemoteHosts.1.SMTPServerIPAddress, setting new value to: test.labs.net
+
+- PASS, PATCH command passed to successfully set "IDRAC" attribute(s), status code 200 returned
+
+- INFO, getting new attribute current values
+- Attribute Name: Time.1.Timezone, Attribute Value: CST6CDT

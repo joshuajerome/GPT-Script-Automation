@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspaces/Dell/Redfish Python/scripts/GetSetOemNetworkDevicePropertiesREDFISH.py", line 524, in <module>
+    network_registry()
+  File "/workspaces/Dell/Redfish Python/scripts/GetSetOemNetworkDevicePropertiesREDFISH.py", line 212, in network_registry
+    for i in data['RegistryEntries']['Attributes']:
+             ~~~~^^^^^^^^^^^^^^^^^^^
+KeyError: 'RegistryEntries'

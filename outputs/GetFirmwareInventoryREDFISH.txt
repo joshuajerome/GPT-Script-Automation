@@ -1,0 +1,1347 @@
+
+- INFO, getting current firmware inventory for iDRAC 100.68.145.144 -
+
+[
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-107649-7.03__RAID.Backplane.Firmware.1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Current-107649-7.03__RAID.Backplane.Firmware.1",
+        "Name": "Backplane 1",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-107649-7.03__RAID.Backplane.Firmware.1/Oem/Dell/DellSoftwareInventory/DCIM:CURRENT_0x23_314_C_RAID.Backplane.Firmware.1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "107649",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "Backplane 1",
+                    "HashValue": "6cbcd915630295e5b849bc652964a3c37621ddd6bd96d3e9be00f06e2f09f64c",
+                    "Id": "DCIM:CURRENT_0x23_314_C_RAID.Backplane.Firmware.1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:107649"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "NA",
+                    "IsEntity": true,
+                    "MajorVersion": 7,
+                    "MinorVersion": 3,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 0,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "AvailableForInstallation",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "2022-12-07T00:00:00Z",
+        "SoftwareId": "107649",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "7.03"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-107649-7.03__RAID.Backplane.Firmware.2",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Current-107649-7.03__RAID.Backplane.Firmware.2",
+        "Name": "Backplane 2",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-107649-7.03__RAID.Backplane.Firmware.2/Oem/Dell/DellSoftwareInventory/DCIM:CURRENT_0x23_314_C_RAID.Backplane.Firmware.2",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "107649",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "Backplane 2",
+                    "HashValue": "6cbcd915630295e5b849bc652964a3c37621ddd6bd96d3e9be00f06e2f09f64c",
+                    "Id": "DCIM:CURRENT_0x23_314_C_RAID.Backplane.Firmware.2",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:107649"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "NA",
+                    "IsEntity": true,
+                    "MajorVersion": 7,
+                    "MinorVersion": 3,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 0,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "AvailableForInstallation",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "2022-12-07T00:00:00Z",
+        "SoftwareId": "107649",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "7.03"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-108024-00.18.31__PSU.Slot.2",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Current-108024-00.18.31__PSU.Slot.2",
+        "Name": "Power Supply.Slot.2",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-108024-00.18.31__PSU.Slot.2/Oem/Dell/DellSoftwareInventory/DCIM:CURRENT_0x23_0x15__PSU.Slot.2",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "108024",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "Power Supply.Slot.2",
+                    "HashValue": null,
+                    "Id": "DCIM:CURRENT_0x23_0x15__PSU.Slot.2",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:108024"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "NA",
+                    "IsEntity": true,
+                    "MajorVersion": 0,
+                    "MinorVersion": 18,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 31,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "AvailableForInstallation",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "00:00:00Z",
+        "SoftwareId": "108024",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "00.18.31"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-110420-22.31.6__NIC.Embedded.1-1-1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Current-110420-22.31.6__NIC.Embedded.1-1-1",
+        "Name": "Broadcom NetXtreme Gigabit Ethernet (BCM5720) - EC:2A:72:33:08:FE",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-110420-22.31.6__NIC.Embedded.1-1-1/Oem/Dell/DellSoftwareInventory/DCIM:CURRENT_0x23_701__NIC.Embedded.1-1-1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "110420",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": "165F",
+                    "ElementName": "Broadcom NetXtreme Gigabit Ethernet (BCM5720) - EC:2A:72:33:08:FE",
+                    "HashValue": "0c506f2c6ff4ce4eb7fadc522a4c0e1e547f28301f1f55a093d11424911d6710",
+                    "Id": "DCIM:CURRENT_0x23_701__NIC.Embedded.1-1-1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:14E4:165F:1028:0A6B"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "NA",
+                    "IsEntity": true,
+                    "MajorVersion": 22,
+                    "MinorVersion": 31,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 6,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "AvailableForInstallation",
+                    "SubDeviceID": "0A6B",
+                    "SubVendorID": "1028",
+                    "VendorID": "14E4",
+                    "impactsTPMmeasurements": true
+                }
+            }
+        },
+        "ReleaseDate": "2022-11-10T00:00:00Z",
+        "SoftwareId": "110420",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "22.31.6"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-110420-22.31.6__NIC.Embedded.2-1-1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Current-110420-22.31.6__NIC.Embedded.2-1-1",
+        "Name": "Broadcom NetXtreme Gigabit Ethernet (BCM5720) - EC:2A:72:33:08:FF",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-110420-22.31.6__NIC.Embedded.2-1-1/Oem/Dell/DellSoftwareInventory/DCIM:CURRENT_0x23_701__NIC.Embedded.2-1-1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "110420",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": "165F",
+                    "ElementName": "Broadcom NetXtreme Gigabit Ethernet (BCM5720) - EC:2A:72:33:08:FF",
+                    "HashValue": "0c506f2c6ff4ce4eb7fadc522a4c0e1e547f28301f1f55a093d11424911d6710",
+                    "Id": "DCIM:CURRENT_0x23_701__NIC.Embedded.2-1-1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:14E4:165F:1028:0A6B"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "NA",
+                    "IsEntity": true,
+                    "MajorVersion": 22,
+                    "MinorVersion": 31,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 6,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "AvailableForInstallation",
+                    "SubDeviceID": "0A6B",
+                    "SubVendorID": "1028",
+                    "VendorID": "14E4",
+                    "impactsTPMmeasurements": true
+                }
+            }
+        },
+        "ReleaseDate": "2022-11-10T00:00:00Z",
+        "SoftwareId": "110420",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "22.31.6"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-159-1.3.2__BIOS.Setup.1-1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Current-159-1.3.2__BIOS.Setup.1-1",
+        "Name": "BIOS",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-159-1.3.2__BIOS.Setup.1-1/Oem/Dell/DellSoftwareInventory/DCIM:CURRENT_0x23_741__BIOS.Setup.1-1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "BIOS/FCode"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "159",
+                    "ComponentType": "BIOS",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "BIOS",
+                    "HashValue": "c69b5a60665a6df68e829ae79499918f73817a9d82b822c84fb48dca4be45f8d",
+                    "Id": "DCIM:CURRENT_0x23_741__BIOS.Setup.1-1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:BIOS:159"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "NA",
+                    "IsEntity": true,
+                    "MajorVersion": 1,
+                    "MinorVersion": 3,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 2,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "AvailableForInstallation",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": true
+                }
+            }
+        },
+        "ReleaseDate": "2023-01-18T00:00:00Z",
+        "SoftwareId": "159",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "1.3.2"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-0-52.13.0-3088__RAID.SL.7-1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-0-52.13.0-3088__RAID.SL.7-1",
+        "Name": "PERC H755N Front",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-0-52.13.0-3088__RAID.SL.7-1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_301_C_RAID.SL.7-1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "0",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": "10E2",
+                    "ElementName": "PERC H755N Front",
+                    "HashValue": null,
+                    "Id": "DCIM:INSTALLED_0x23_301_C_RAID.SL.7-1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:1000:10E2:1028:1AE2"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-03-27T20:36:36Z",
+                    "IsEntity": true,
+                    "MajorVersion": 52,
+                    "MinorVersion": 13,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": null,
+                    "RevisionString": "0-3088",
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": "1AE2",
+                    "SubVendorID": "1028",
+                    "VendorID": "1000",
+                    "impactsTPMmeasurements": true
+                }
+            }
+        },
+        "ReleaseDate": "00:00:00Z",
+        "SoftwareId": "0",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "52.13.0-3088"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-0-52.21.0-4606__RAID.SL.3-1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-0-52.21.0-4606__RAID.SL.3-1",
+        "Name": "PERC H755 Front",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-0-52.21.0-4606__RAID.SL.3-1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_301_C_RAID.SL.3-1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "0",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": "10E2",
+                    "ElementName": "PERC H755 Front",
+                    "HashValue": null,
+                    "Id": "DCIM:INSTALLED_0x23_301_C_RAID.SL.3-1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:1000:10E2:1028:1AE1"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-06-02T01:14:52Z",
+                    "IsEntity": true,
+                    "MajorVersion": 52,
+                    "MinorVersion": 21,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": null,
+                    "RevisionString": "0-4606",
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": "1AE1",
+                    "SubVendorID": "1028",
+                    "VendorID": "1000",
+                    "impactsTPMmeasurements": true
+                }
+            }
+        },
+        "ReleaseDate": "00:00:00Z",
+        "SoftwareId": "0",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "52.21.0-4606"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-104684-5.1.0.0__ServiceModule.Embedded.1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-104684-5.1.0.0__ServiceModule.Embedded.1",
+        "Name": "Dell EMC iDRAC Service Module Embedded Package v5.1.0.0, A00",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-104684-5.1.0.0__ServiceModule.Embedded.1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__ServiceModule.Embedded.1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "104684",
+                    "ComponentType": "APAC",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "Dell EMC iDRAC Service Module Embedded Package v5.1.0.0, A00",
+                    "HashValue": null,
+                    "Id": "DCIM:INSTALLED_0x23_802__ServiceModule.Embedded.1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:104684"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-03-31T19:27:32Z",
+                    "IsEntity": true,
+                    "MajorVersion": 5,
+                    "MinorVersion": 1,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 0,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "00:00:00Z",
+        "SoftwareId": "104684",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "5.1.0.0"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-107649-7.03__RAID.Backplane.Firmware.1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-107649-7.03__RAID.Backplane.Firmware.1",
+        "Name": "Backplane 1",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-107649-7.03__RAID.Backplane.Firmware.1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_314_C_RAID.Backplane.Firmware.1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "107649",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "Backplane 1",
+                    "HashValue": "6cbcd915630295e5b849bc652964a3c37621ddd6bd96d3e9be00f06e2f09f64c",
+                    "Id": "DCIM:INSTALLED_0x23_314_C_RAID.Backplane.Firmware.1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:107649"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-03-31T19:30:43Z",
+                    "IsEntity": true,
+                    "MajorVersion": 7,
+                    "MinorVersion": 3,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 0,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "2022-12-07T00:00:00Z",
+        "SoftwareId": "107649",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "7.03"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-107649-7.03__RAID.Backplane.Firmware.2",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-107649-7.03__RAID.Backplane.Firmware.2",
+        "Name": "Backplane 2",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-107649-7.03__RAID.Backplane.Firmware.2/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_314_C_RAID.Backplane.Firmware.2",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "107649",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "Backplane 2",
+                    "HashValue": "6cbcd915630295e5b849bc652964a3c37621ddd6bd96d3e9be00f06e2f09f64c",
+                    "Id": "DCIM:INSTALLED_0x23_314_C_RAID.Backplane.Firmware.2",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:107649"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-03-31T19:33:11Z",
+                    "IsEntity": true,
+                    "MajorVersion": 7,
+                    "MinorVersion": 3,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 0,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "2022-12-07T00:00:00Z",
+        "SoftwareId": "107649",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "7.03"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-108024-00.18.31__PSU.Slot.2",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-108024-00.18.31__PSU.Slot.2",
+        "Name": "Power Supply.Slot.2",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-108024-00.18.31__PSU.Slot.2/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_0x15__PSU.Slot.2",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "108024",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "Power Supply.Slot.2",
+                    "HashValue": null,
+                    "Id": "DCIM:INSTALLED_0x23_0x15__PSU.Slot.2",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:108024"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-05-08T21:08:21Z",
+                    "IsEntity": true,
+                    "MajorVersion": 0,
+                    "MinorVersion": 18,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 31,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "00:00:00Z",
+        "SoftwareId": "108024",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "00.18.31"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-110420-22.31.6__NIC.Embedded.1-1-1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-110420-22.31.6__NIC.Embedded.1-1-1",
+        "Name": "Broadcom NetXtreme Gigabit Ethernet (BCM5720) - EC:2A:72:33:08:FE",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-110420-22.31.6__NIC.Embedded.1-1-1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Embedded.1-1-1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "110420",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": "165F",
+                    "ElementName": "Broadcom NetXtreme Gigabit Ethernet (BCM5720) - EC:2A:72:33:08:FE",
+                    "HashValue": "0c506f2c6ff4ce4eb7fadc522a4c0e1e547f28301f1f55a093d11424911d6710",
+                    "Id": "DCIM:INSTALLED_0x23_701__NIC.Embedded.1-1-1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:14E4:165F:1028:0A6B"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-05-09T21:29:18Z",
+                    "IsEntity": true,
+                    "MajorVersion": 22,
+                    "MinorVersion": 31,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 6,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": "0A6B",
+                    "SubVendorID": "1028",
+                    "VendorID": "14E4",
+                    "impactsTPMmeasurements": true
+                }
+            }
+        },
+        "ReleaseDate": "2022-11-10T00:00:00Z",
+        "SoftwareId": "110420",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "22.31.6"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-110420-22.31.6__NIC.Embedded.2-1-1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-110420-22.31.6__NIC.Embedded.2-1-1",
+        "Name": "Broadcom NetXtreme Gigabit Ethernet (BCM5720) - EC:2A:72:33:08:FF",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-110420-22.31.6__NIC.Embedded.2-1-1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_701__NIC.Embedded.2-1-1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "110420",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": "165F",
+                    "ElementName": "Broadcom NetXtreme Gigabit Ethernet (BCM5720) - EC:2A:72:33:08:FF",
+                    "HashValue": "0c506f2c6ff4ce4eb7fadc522a4c0e1e547f28301f1f55a093d11424911d6710",
+                    "Id": "DCIM:INSTALLED_0x23_701__NIC.Embedded.2-1-1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:14E4:165F:1028:0A6B"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-05-09T21:29:18Z",
+                    "IsEntity": true,
+                    "MajorVersion": 22,
+                    "MinorVersion": 31,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 6,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": "0A6B",
+                    "SubVendorID": "1028",
+                    "VendorID": "14E4",
+                    "impactsTPMmeasurements": true
+                }
+            }
+        },
+        "ReleaseDate": "2022-11-10T00:00:00Z",
+        "SoftwareId": "110420",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "22.31.6"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-159-1.3.2__BIOS.Setup.1-1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-159-1.3.2__BIOS.Setup.1-1",
+        "Name": "BIOS",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-159-1.3.2__BIOS.Setup.1-1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_741__BIOS.Setup.1-1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "BIOS/FCode"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "159",
+                    "ComponentType": "BIOS",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "BIOS",
+                    "HashValue": "c69b5a60665a6df68e829ae79499918f73817a9d82b822c84fb48dca4be45f8d",
+                    "Id": "DCIM:INSTALLED_0x23_741__BIOS.Setup.1-1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:BIOS:159"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-05-08T14:31:41Z",
+                    "IsEntity": true,
+                    "MajorVersion": 1,
+                    "MinorVersion": 3,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 2,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": true
+                }
+            }
+        },
+        "ReleaseDate": "2023-01-18T00:00:00Z",
+        "SoftwareId": "159",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "1.3.2"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-18981-0__DriverPack.Embedded.1:LC.Embedded.1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-18981-0__DriverPack.Embedded.1:LC.Embedded.1",
+        "Name": "OS Drivers Pack",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-18981-0__DriverPack.Embedded.1:LC.Embedded.1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__DriverPack.Embedded.1:LC.Embedded.1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": null,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "18981",
+                    "ComponentType": "APAC",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "OS Drivers Pack",
+                    "HashValue": null,
+                    "Id": "DCIM:INSTALLED_0x23_802__DriverPack.Embedded.1:LC.Embedded.1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:18981"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-03-14T11:48:20Z",
+                    "IsEntity": true,
+                    "MajorVersion": null,
+                    "MinorVersion": null,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": null,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "00:00:00Z",
+        "SoftwareId": "18981",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "0"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-25227-5.10.25.00__iDRAC.Embedded.1-1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-25227-5.10.25.00__iDRAC.Embedded.1-1",
+        "Name": "Integrated Dell Remote Access Controller",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-25227-5.10.25.00__iDRAC.Embedded.1-1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 22,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "25227",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "Integrated Dell Remote Access Controller",
+                    "HashValue": null,
+                    "Id": "DCIM:INSTALLED_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:25227"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-06-09T02:26:54Z",
+                    "IsEntity": true,
+                    "MajorVersion": 5,
+                    "MinorVersion": 10,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 25,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "2023-02-24T00:00:00Z",
+        "SoftwareId": "25227",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "5.10.25.00"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-25806-4301A83__Diagnostics.Embedded.1:LC.Embedded.1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-25806-4301A83__Diagnostics.Embedded.1:LC.Embedded.1",
+        "Name": "Dell 64 Bit uEFI Diagnostics, version 4301, 4301A83, 4301.84",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-25806-4301A83__Diagnostics.Embedded.1:LC.Embedded.1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__Diagnostics.Embedded.1:LC.Embedded.1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": null,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "25806",
+                    "ComponentType": "APAC",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "Dell 64 Bit uEFI Diagnostics, version 4301, 4301A83, 4301.84",
+                    "HashValue": null,
+                    "Id": "DCIM:INSTALLED_0x23_802__Diagnostics.Embedded.1:LC.Embedded.1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:25806"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-03-31T19:24:18Z",
+                    "IsEntity": true,
+                    "MajorVersion": null,
+                    "MinorVersion": null,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": null,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "00:00:00Z",
+        "SoftwareId": "25806",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "4301A83"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-27763-1.0.5__CPLD.Embedded.1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-27763-1.0.5__CPLD.Embedded.1",
+        "Name": "System CPLD",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-27763-1.0.5__CPLD.Embedded.1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_803__CPLD.Embedded.1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "27763",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "System CPLD",
+                    "HashValue": null,
+                    "Id": "DCIM:INSTALLED_0x23_803__CPLD.Embedded.1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:27763"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-05-08T18:57:10Z",
+                    "IsEntity": true,
+                    "MajorVersion": 1,
+                    "MinorVersion": 0,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 5,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "00:00:00Z",
+        "SoftwareId": "27763",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "1.0.5"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-28897-5.10.25.00__USC.Embedded.1:LC.Embedded.1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Installed-28897-5.10.25.00__USC.Embedded.1:LC.Embedded.1",
+        "Name": "Lifecycle Controller",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Installed-28897-5.10.25.00__USC.Embedded.1:LC.Embedded.1/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_802__USC.Embedded.1:LC.Embedded.1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "28897",
+                    "ComponentType": "APAC",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "Lifecycle Controller",
+                    "HashValue": null,
+                    "Id": "DCIM:INSTALLED_0x23_802__USC.Embedded.1:LC.Embedded.1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:28897"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "2023-06-09T02:27:00Z",
+                    "IsEntity": true,
+                    "MajorVersion": 5,
+                    "MinorVersion": 10,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 25,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "Installed",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "00:00:00Z",
+        "SoftwareId": "28897",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "5.10.25.00"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Previous-159-1.0.1__BIOS.Setup.1-1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Previous-159-1.0.1__BIOS.Setup.1-1",
+        "Name": "BIOS",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Previous-159-1.0.1__BIOS.Setup.1-1/Oem/Dell/DellSoftwareInventory/DCIM:PREVIOUS_0x23_741__BIOS.Setup.1-1",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 0,
+                    "Classifications": [
+                        "BIOS/FCode"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "159",
+                    "ComponentType": "BIOS",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "BIOS",
+                    "HashValue": "c69b5a60665a6df68e829ae79499918f73817a9d82b822c84fb48dca4be45f8d",
+                    "Id": "DCIM:PREVIOUS_0x23_741__BIOS.Setup.1-1",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:BIOS:159"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "NA",
+                    "IsEntity": true,
+                    "MajorVersion": 1,
+                    "MinorVersion": 0,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 1,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "AvailableForInstallation",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": true
+                }
+            }
+        },
+        "ReleaseDate": "2023-01-18T00:00:00Z",
+        "SoftwareId": "159",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "1.0.1"
+    },
+    {
+        "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Previous-25227-6.10.80.00__iDRAC.Embedded.1-1",
+        "@odata.type": "#SoftwareInventory.v1_9_0.SoftwareInventory",
+        "Description": "Represents Firmware Inventory",
+        "Id": "Previous-25227-6.10.80.00__iDRAC.Embedded.1-1",
+        "Name": "Integrated Dell Remote Access Controller",
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_3_0.DellOemResources",
+                "DellSoftwareInventory": {
+                    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Previous-25227-6.10.80.00__iDRAC.Embedded.1-1/Oem/Dell/DellSoftwareInventory/DCIM:PREVIOUS_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo",
+                    "@odata.type": "#DellSoftwareInventory.v1_2_0.DellSoftwareInventory",
+                    "BuildNumber": 28,
+                    "Classifications": [
+                        "Firmware"
+                    ],
+                    "Classifications@odata.count": 1,
+                    "ComponentID": "25227",
+                    "ComponentType": "FRMW",
+                    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                    "DeviceID": null,
+                    "ElementName": "Integrated Dell Remote Access Controller",
+                    "HashValue": null,
+                    "Id": "DCIM:PREVIOUS_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo",
+                    "IdentityInfoType": [
+                        "OrgID:ComponentType:ComponentID"
+                    ],
+                    "IdentityInfoType@odata.count": 1,
+                    "IdentityInfoValue": [
+                        "DCIM:firmware:25227"
+                    ],
+                    "IdentityInfoValue@odata.count": 1,
+                    "InstallationDate": "NA",
+                    "IsEntity": true,
+                    "MajorVersion": 6,
+                    "MinorVersion": 10,
+                    "Name": "DellSoftwareInventory",
+                    "PLDMCapabilitiesDuringUpdate": "0x00000000",
+                    "PLDMFDPCapabilitiesDuringUpdate": "0x00000000",
+                    "RevisionNumber": 80,
+                    "RevisionString": null,
+                    "SidebandUpdateCapable": false,
+                    "Status": "AvailableForInstallation",
+                    "SubDeviceID": null,
+                    "SubVendorID": null,
+                    "VendorID": null,
+                    "impactsTPMmeasurements": false
+                }
+            }
+        },
+        "ReleaseDate": "2023-02-24T00:00:00Z",
+        "SoftwareId": "25227",
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Updateable": true,
+        "Version": "6.10.80.00"
+    }
+]

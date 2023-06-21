@@ -1,0 +1,12 @@
+
+- Specific property details for IPv4Addresses -
+
+('IPv4Addresses', [])
+('LinkStatus', None)
+('PermanentMACAddress', 'EC:2A:72:33:06:B4')
+
+- Specific property details for IPv4Addresses -
+
+('IPv4Addresses', [])
+('LinkStatus', None)
+('PermanentMACAddress', 'EC:2A:72:33:06:B5')

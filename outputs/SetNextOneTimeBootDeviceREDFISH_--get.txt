@@ -1,0 +1,15 @@
+
+- Supported values for next server reboot, one time boot:
+
+None
+Pxe
+Floppy
+Cd
+Hdd
+BiosSetup
+Utilities
+UefiTarget
+SDCard
+UefiHttp
+
+- Current next reboot, one time boot setting is: None

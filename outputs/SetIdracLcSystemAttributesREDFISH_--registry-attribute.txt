@@ -1,0 +1,20 @@
+
+- INFO, searching attribute registry for attribute "SNMPAlert.8.SNMPv3UserID"
+
+- Attribute Registry information for attribute "SNMPAlert.8.SNMPv3UserID" -
+
+AttributeName: SNMPAlert.8.SNMPv3UserID
+CurrentValue: None
+DefaultValue: 0
+DisplayName: SNMP V3 User Index
+DisplayOrder: 1604
+HelpText: Indicates the index of the iDRAC user that this SNMP alert destination has been configured to use when sending SNMP v3 traps.
+Hidden: False
+Id: iDRAC.Embedded.1#SNMPAlert.8#SNMPv3UserID
+LowerBound: 0
+MenuPath: ./iDRAC.Embedded.1/SNMPAlert
+Readonly: True
+Regex: 
+Type: Integer
+UpperBound: 16
+WriteOnly: False

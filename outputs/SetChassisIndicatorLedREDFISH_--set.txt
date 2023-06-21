@@ -1,0 +1,2 @@
+
+- PASS, PATCH command successfully completed "Blinking" request for chassis indicator LED

@@ -1,0 +1,4 @@
+
+- Volume(s) detected for RAID.SL.3-1 controller -
+
+Disk.Virtual.239:RAID.SL.3-1, Volume type: NonRedundant
