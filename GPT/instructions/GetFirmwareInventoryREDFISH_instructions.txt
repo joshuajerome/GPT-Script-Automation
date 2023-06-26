@@ -1,28 +1,17 @@
-Create a python script with the following specifications:
+Modify the given base script to meet the following specifications:
 
-1. The script should be run using python3. 
-2. The python script should be called "GetFirmwareInventoryREDFISH.py".
-3. The usage of the python script should be as follows:
+1. Language: python3
+2. Name: "GetFirmwareInventoryREDFISH.py"
+3. Usage: 
 
-    `GetFirmwareInventoryREDFISH.py [-h] [-ip IP] [-u U] [-p P] [-x X] [--ssl SSL] [--script-examples]`.
+    `GetFirmwareInventoryREDFISH.py [-h] [-ip IP] [-u U] [-p P] [-x X] [--ssl SSL] [--script-examples]`
 
 4. The flag `--script-examples` should print the following message to the console:
 
     `"\n- GetFirmwareInventoryREDFISH.py -ip 100.100.0.100 -u username -p password, this example will return firmware inventory, current versions for all devices detected in the server."`.
 
-5. If the `-ip IP` flag is parsed, an additional flag must also be included: 
-
-    either `--ssl SSL`, `-u U`, `-p P`, or `-x X`. 
-
-    The values for these flags should be stored.
-6. To check the supported iDRAC version, send a GET request to the following URL with authentication: 
-
-    `'https://%s/redfish/v1/UpdateService/FirmwareInventory' % idrac_ip, verify=verify_cert, auth=(idrac_username, idrac_password)`.
-
-7. Store the response to this GET request and check the response's status code.
-    - If `response.status_code == 401`, log a warning message indicating incorrect iDRAC username/password or invalid privilege.
-    - If `response.status_code != 200`, log a warning message indicating that the installed iDRAC version does not support the feature using the Redfish API.
-8. Run a function to get Firmware Inventory:
-    - Send a get request to 'https://%s/redfish/v1/UpdateService/FirmwareInventory?$expand=*($levels=1)' % idrac_ip, verify=verify_cert, auth=(idrac_username, idrac_password) and store the response.
+5. Run a function to check iDRAC version. Update the variable redfish_api_path to be the appropriate redfish api url
+6. Run a function to get Firmware Inventory:
+    - Send a get request to the appropriate redfish api url and store the response.
     - If the response status code is not 200, log an error message indicating the failure and exit the script.
     - Otherwise, extract the desired data from the response and print it using `pprint()`.

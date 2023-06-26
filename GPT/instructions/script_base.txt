@@ -1,0 +1,37 @@
+Base Model for Redfish Scripts
+
+STEP 1:
+- import statements get generated automatically based on usage
+
+STEP 2:
+- warnings.filterwarnings("ignore")
+
+STEP 3:
+- create global argparser with the following description:
+    - "Python script using Redfish API DMTF to either get or set OEM network device properties. This will configure properties which are not exposed as being supported from DMTF. Examples: virtual MAC address or virtualization mode."
+
+STEP 3A:
+- required arguments to add (all NOT required):
+    - -ip, iDRAC IP address
+    - -u, iDRAC username
+    - -p, iDRAC password
+    - -x, Pass in X-Auth session token for executing Redfish calls. All Redfish calls will use X-Auth token instead of username/password
+    - --ssl', help='SSL cert verification for all Redfish calls, pass in value \"true\" or \"false\". By default, this argument is not required and script ignores validating SSL cert for all Redfish calls.
+
+STEP 3B:
+- script specific arguments
+    - '--name-of-flag', help='brief description', required=False
+
+STEP 4:
+- def script_exaples(): // print an example for all the script specific arguments in STEP 3B
+
+STEP 5:
+- args = vars(parser.parse_args())
+- logging.basicConfig(format='%(message)s', stream=sys.stdout, level=logging.INFO)
+
+STEP 6:
+- def check_supported_idrac_version(): // check implementation
+- only the url to get from changes
+
+STEP 7:
+- create a function for each of the script-specific-arguments from STEP 3B
