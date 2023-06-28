@@ -1,3 +1,4 @@
 confidential.json
-filenames.txt
 scripts/
+*.txt
+tree_walk.sh

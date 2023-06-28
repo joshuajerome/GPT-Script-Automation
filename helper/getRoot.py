@@ -2,7 +2,7 @@ import requests
 import json
 
 def get_root_url(idrac_ip, idrac_username, idrac_password, verify_cert=False):
-    url = f"https://{idrac_ip}/redfish/v1"
+    url = f"https://{idrac_ip}/redfish/v1/Systems/System.Embedded.1/NetworkAdapters"
     response = requests.get(url, verify=verify_cert, auth=(idrac_username, idrac_password))
     
     if response.status_code == 200:
