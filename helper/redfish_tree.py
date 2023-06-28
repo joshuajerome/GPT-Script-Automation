@@ -1,4 +1,4 @@
-import json
+import utility
 import requests
 import warnings
 
@@ -12,11 +12,6 @@ from tqdm import tqdm
 import time
 
 warnings.filterwarnings("ignore")
-
-def initialize():
-    confidential = 'confidential.json'
-    with open(confidential) as file:
-        return json.load(file)
 
 def traverse_tree(base_uri, session, output_file, visited=None, indent=0):
     if visited is None:
@@ -61,7 +56,7 @@ def traverse_tree(base_uri, session, output_file, visited=None, indent=0):
 
 
 def main():
-    data = initialize()
+    data = utility.initialize('confidential.json')
     idrac_ip = data['IP']
     idrac_username = data['USER']
     idrac_password = data['PASS']

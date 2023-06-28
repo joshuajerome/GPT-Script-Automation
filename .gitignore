@@ -2,3 +2,4 @@ confidential.json
 scripts/
 *.txt
 tree_walk.sh
+__pycache__/
